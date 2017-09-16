@@ -142,7 +142,7 @@ How we can handle with this?
 
 If we change every digit, the channel becomes with 1/2 <= *p*.
 
-In conclusion, when we change every digit, they change as %50 or more correct and the channel becomes with 1/2 <= *p* < 1.
+In conclusion, when we change every digit, they change as %50 or more correct and the channel becomes as with 1/2 <= *p* < 1.
 
 ### Exercise 1.2.6
 
@@ -155,6 +155,8 @@ In conclusion, when we change every digit, they change as %50 or more correct an
 
 > Let *C* be the code of all words legth 3. Determine which codeword was most likely sent if 001 is recived.
 
+001.
+
 ### Exercise 1.3.5
 
 > Add a parity check digit to the codewords in the code **Exercise 1.3.4**, and use the resulting code *C* to answer the following  questions.
@@ -164,6 +166,7 @@ In conclusion, when we change every digit, they change as %50 or more correct an
   (b) If 1101 is received what codewords were most likely to have been trasmitted?
   
   (c) Is any word of legth 4 that is nott in the code, cloeset to a unique codeword?
+  
 
 ### Exercise 1.3.6
 
