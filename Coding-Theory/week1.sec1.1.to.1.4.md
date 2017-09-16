@@ -121,3 +121,45 @@ If we sum all cases 1 +15 +15 +1 = 32 maximum different cases.
 ### Exercise 1.2.4
 
 > Explain why a channel with *p* = 0 is uninteresting.
+
+### Exercise 1.2.5
+
+> Explain how to convert a channel with 0 < *p* <= 1/2 into a channel with 1/2 <= *p* < 1.
+
+### Exercise 1.2.6
+
+> What can be said about a channel with *p*=1/2?
+
+### Exercise 1.3.4
+
+> Let *C* be the code of all words legth 3. Determine which codeword was most likely sent if 001 is recived.
+
+### Exercise 1.3.5
+
+> Add a parity check digit to the codewords in the code **Exercise 1.3.4**, and use the resulting code *C* to answer the following  questions.
+
+  (a) If 1101 is received can we detect an eror?
+  (b) If 1101 is received what codewords were most likely to have been trasmitted?
+  (c) Is any word of legth 4 that is nott in the code, cloeset to a unique codeword?
+
+### Exercise 1.3.6
+
+> Repea each codewoord in the code *C* defined in **Exercise 1.3.4** three times to form a repetition code of length 9. Find the closest codewords to the following recieved words:
+
+  (a) 001000001
+  (b) 011001011
+  (c) 101000101
+  (d) 100000010
+ 
+### Exercise 1.3.7
+ 
+> Find the maximum number of length *n* = 4 in a code in which any single error can be detected.
+ 
+### Exercise 1.3.8
+ 
+> Repeat **Exercise 1.3.7** for *n* = 5, *n* = 6 and for general *n*.
+
+### Exercise 1.3.8
+
+> Find the information rate for each of the codes in **Exercise 1.3.4, Exercise 1.3.5, Exercise 1.3.6**.
+  
