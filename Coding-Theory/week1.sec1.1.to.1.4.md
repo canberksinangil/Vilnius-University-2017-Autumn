@@ -161,24 +161,24 @@ In conclusion, when we change every digit, they change as %50 or more correct an
 
 > Add a parity check digit to the codewords in the code **Exercise 1.3.4**, and use the resulting code *C* to answer the following  questions.
 
-  (a) If 1101 is received can we detect an eror?
+  > (a) If 1101 is received can we detect an eror?
   
-  (b) If 1101 is received what codewords were most likely to have been trasmitted?
+  > (b) If 1101 is received what codewords were most likely to have been trasmitted?
   
-  (c) Is any word of legth 4 that is nott in the code, cloeset to a unique codeword?
+  > (c) Is any word of legth 4 that is nott in the code, cloeset to a unique codeword?
   
 
 ### Exercise 1.3.6
 
 > Repea each codewoord in the code *C* defined in **Exercise 1.3.4** three times to form a repetition code of length 9. Find the closest codewords to the following recieved words:
 
-  (a) 001000001
+  > (a) 001000001
   
-  (b) 011001011
+  > (b) 011001011
   
-  (c) 101000101
+  > (c) 101000101
   
-  (d) 100000010
+  > (d) 100000010
  
 ### Exercise 1.3.7
  
