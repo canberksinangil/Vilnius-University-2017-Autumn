@@ -209,6 +209,13 @@ It can be;
   
   > (d) 100000010
  
+| Order | Received Codewords | Closest Codewords |
+| ----- | ------------------ | ----------------- | 
+| a.    | 001 000 001        | 001 001 001       |
+| b.    | 011 001 011        | 011 011 011       |
+| c.    | 101 000 101        | 101 101 101       |
+| d.    | 100 000 010        | 000 000 000       |
+
 ### Exercise 1.3.7
  
 > Find the maximum number of length *n* = 4 in a code in which any single error can be detected.
