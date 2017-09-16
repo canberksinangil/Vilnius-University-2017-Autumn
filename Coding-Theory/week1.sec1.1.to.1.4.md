@@ -59,5 +59,27 @@ According to the exercises
 
 > Let *C* be the code consisting of all words of length 6 having an even number of ones. List the codewords in *C*.
 
+First of all we have a condition, codewords must have even quantity of '1'. Which means quantity of '1' can be 0, 2, 4 or 6. According to the condition let's calculate possibilities.
+
+#### Case 1
+
+'0' quantity for 1 = 6! / 6! = 1
+
+#### Case 2
+
+'2' quantity for 1 = 6! / 2!x4! = 15
+
+>Short way: Imagine that you have got 2 keys and you have got 6 boxes and you want to put these keys into the boxes. My question is how many **different** ways you can put the keys into the boxes?
+
+>You can use combinations C(6 , 2)
+
+#### Case 3
+
+'4' quantity for 1 = 6! / 4!x2! = 15
+
+#### Case 4
+
+'6' quantity for 1 = 6! / 6! = 1
+
 
 
