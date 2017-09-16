@@ -153,24 +153,49 @@ In conclusion, when we change every digit, they change as %50 or more correct an
 
 ### Exercise 1.3.4
 
-> Let *C* be the code of all words legth 3. Determine which codeword was most likely sent if 001 is recived.
+> Let *C* be the code of all words length 3. Determine which codeword was most likely sent if 001 is received.
 
 001.
 
 ### Exercise 1.3.5
 
-> Add a parity check digit to the codewords in the code **Exercise 1.3.4**, and use the resulting code *C* to answer the following  questions.
+> Add a parity check digit to the codewords in the code **Exercise 1.3.4**, and use the resulting code *C* to answer the following questions.
 
-  > (a) If 1101 is received can we detect an eror?
+  > (a) If 1101 is received can we detect an error?
   
-  > (b) If 1101 is received what codewords were most likely to have been trasmitted?
+  > (b) If 1101 is received what codewords were most likely to have been transmitted?
   
-  > (c) Is any word of legth 4 that is nott in the code, cloeset to a unique codeword?
-  
+  > (c) Is any word of length 4 that is not in the code, closest to a unique codeword?
+
+Let's check codewords first.
+
+| Order | Codewords |
+| ----- | --------- | 
+| 1.    | 0000      |      
+| 2.    | 0011      | 
+| 3.    | 1100      |
+| 4.    | 0110      |
+| 5.    | 1010      |
+| 6.    | 0101      |
+| 7.    | 1001      |
+| 8.    | 1111      | 
+
+(a) Yes.
+
+(b) Codewords must have even quantity of '1'. It can be; (We will change just one digit to make it even.)
+
+Received: '1101'
+
+| Order | Codewords |
+| ----- | --------- | 
+| 1.    | 1111      |
+| 2.    | 1001      |
+| 3.    | 0101      |
+| 4.    | 1100      |
 
 ### Exercise 1.3.6
 
-> Repea each codewoord in the code *C* defined in **Exercise 1.3.4** three times to form a repetition code of length 9. Find the closest codewords to the following recieved words:
+> Repeat each codeword in the code *C* defined in **Exercise 1.3.4** three times to form a repetition code of length 9. Find the closest codewords to the following received words:
 
   > (a) 001000001
   
@@ -191,4 +216,3 @@ In conclusion, when we change every digit, they change as %50 or more correct an
 ### Exercise 1.3.8
 
 > Find the information rate for each of the codes in **Exercise 1.3.4, Exercise 1.3.5, Exercise 1.3.6**.
-  
