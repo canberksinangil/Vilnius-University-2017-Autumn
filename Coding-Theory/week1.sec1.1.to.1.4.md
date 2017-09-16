@@ -122,9 +122,9 @@ If we sum all cases 1 +15 +15 +1 = 32 maximum different cases.
 
 > Explain why a channel with *p* = 0 is uninteresting.
 
-If every time encoder (transmitter) transmit 0, decoder (receiver) receive 0 and vice versa. Which means our channel is %100 reliable which makes probability of channel equals to '1' (***p* = 1**). There is no need to change any digits.
+If every time encoder (transmitter) transmits 0, decoder (receiver) receives 0 and vice versa. Which means our channel is %100 reliable and makes probability of channel equals to '1' (***p* = 1**). There is no need to change any digits.
 
-One the other hand If every time encoder (transmitter) transmit 1, decoder (receiver) receive 0 and vice versa. Which means our channel is %100 **unreliable** which makes probability of channel equals to '0' (***p* = 0**). There is need to change every digit. For instance, encoder sent 1 but decoder received 0 and we have already known channel with ***p* = 0**. Every digit is changed by decoder.
+One the other hand If every time encoder (transmitter) transmits 1, decoder (receiver) receives 0 and vice versa. Which means our channel is %100 **unreliable** and makes probability of channel equals to '0' (***p* = 0**). There is need to change every digit. For instance, encoder sent 1 but decoder received 0 and we have already known channel with ***p* = 0**. Every digit is changed by decoder.
 
 To sum, there is no importance when channel with ***p* = 0** or ***p* = 1**.
 
