@@ -180,11 +180,13 @@ Let's check codewords first.
 | 7.    | 1001      |
 | 8.    | 1111      | 
 
-(a) Yes.
+(a) Yes, hence it has **'parity check digit'** which means number of '1' must be even.
 
-(b) Codewords must have even quantity of '1'. It can be; (We will change just one digit to make it even.)
+(b) Codewords must have even quantity of '1'. (We will change just one digit to make it even.)
 
-Received: '1101'
+Received: '1101' 
+
+It can be;
 
 | Order | Codewords |
 | ----- | --------- | 
@@ -193,7 +195,9 @@ Received: '1101'
 | 3.    | 0101      |
 | 4.    | 1100      |
 
-### Exercise 1.3.6
+(c) According to the **table in (b)** every word of length '4' which is not correct codeword has '4' different closest codewords.
+
+### Exercise 1.3.6 
 
 > Repeat each codeword in the code *C* defined in **Exercise 1.3.4** three times to form a repetition code of length 9. Find the closest codewords to the following received words:
 
