@@ -71,7 +71,7 @@ First of all we have a condition, codewords must have even quantity of '1'. Whic
 
 >Short Way: Imagine that you have got 2 keys and you have got 6 boxes and you want to put these keys into the boxes. My question is how many **different** ways can you put the keys into the boxes?
 
->You can use combinations C(6 , 2)
+>You can use combinations C(6 , 2).
 
 #### Case 3
 
@@ -80,6 +80,8 @@ First of all we have a condition, codewords must have even quantity of '1'. Whic
 #### Case 4
 
 '6' quantity for 1 = 6! / 6! = 1
+
+If we sum all cases 1 +15 +15 +1 = 32 maximum different cases.
 
 | Order | Case 1   | Case 2   | Case 3   | Case 4   |
 | ----- | -------- | -------- | -------- | -------- |
