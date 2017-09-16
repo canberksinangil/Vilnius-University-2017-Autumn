@@ -136,13 +136,13 @@ We replace each '0' with a '1' and each '1' with '0'.
 
 Let's explain why we replace?
 
-If A channel is with *p* <= 1/2, %50 or more digits is recieved wrong.
+If a channel is with *p* <= 1/2, %50 or more digits is recieved wrong.
 
 How we can handle with this?
 
 If we change every digits, the channel becomes with 1/2 <= *p*.
 
-In conclusion, when we change the every digit, they becomes %50 or more true and channel is with 1/2 <= *p* < 1.
+In conclusion, when we change the every digit, they becomes %50 or more true and channel with 1/2 <= *p* < 1.
 
 ### Exercise 1.2.6
 
