@@ -69,9 +69,9 @@ First of all we have a condition, codewords must have even quantity of '1'. Whic
 
 '2' quantity for 1 = 6! / 2!x4! = 15
 
->Short Way: Imagine that you have got 2 keys and you have got 6 boxes and you want to put these keys into the boxes. My question is how many **different** ways can you put the keys into the boxes?
+> Short Way: Imagine that you have got 2 keys and you have got 6 boxes and you want to put these keys into the boxes. My question is how many **different** ways can you put the keys into the boxes?
 
->You can use combinations C(6 , 2).
+> You can use combinations C(6 , 2).
 
 #### Case 3
 
@@ -86,36 +86,38 @@ If we sum all cases 1 +15 +15 +1 = 32 maximum different cases.
 | Order | Case 1   | Case 2   | Case 3   | Case 4   |
 | ----- | -------- | -------- | -------- | -------- |
 | 1.    | 000000   |          |          |          |
-| 2.    |          |000011    |          |          |
-| 3.    |          |001100    |          |          |
-| 4.    |          |110000    |          |          |
-| 5.    |          |000110    |          |          |
-| 6.    |          |011000    |          |          |
-| 7.    |          |000101    |          |          |
-| 8.    |          |001001    |          |          |
-| 9.    |          |010001    |          |          |
-| 10.   |          |100001    |          |          |
-| 11.   |          |101000    |          |          |
-| 12.   |          |100100    |          |          |
-| 13.   |          |100010    |          |          |
-| 14.   |          |010100    |          |          |
-| 15.   |          |001010    |          |          |
-| 16.   |          |010010    |          |          |
-| 17.   |          |          |111100    |          |
-| 18.   |          |          |001111    |          |
-| 19.   |          |          |011110    |          |
-| 20.   |          |          |111100    |          |
-| 21.   |          |          |110011    |          |
-| 22.   |          |          |110110    |          |
-| 23.   |          |          |110101    |          |
-| 24.   |          |          |111010    |          |
-| 25.   |          |          |111001    |          |
-| 26.   |          |          |111010    |          |
-| 27.   |          |          |100111    |          |
-| 28.   |          |          |101110    |          |
-| 29.   |          |          |101011    |          |
-| 30.   |          |          |011101    |          |
-| 31.   |          |          |011011    |          |
-| 32.   |          |          |          | 111111   |
+| 2.    |          | 000011   |          |          |
+| 3.    |          | 001100   |          |          |
+| 4.    |          | 110000   |          |          |
+| 5.    |          | 000110   |          |          |
+| 6.    |          | 011000   |          |          |
+| 7.    |          | 000101   |          |          |
+| 8.    |          | 001001   |          |          |
+| 9.    |          | 010001   |          |          |
+| 10.   |          | 100001   |          |          |
+| 11.   |          | 101000   |          |          |
+| 12.   |          | 100100   |          |          |
+| 13.   |          | 100010   |          |          |
+| 14.   |          | 010100   |          |          |
+| 15.   |          | 001010   |          |          |
+| 16.   |          | 010010   |          |          |
+| 17.   |          |          | 111100    |          |
+| 18.   |          |          | 001111    |          |
+| 19.   |          |          | 011110    |          |
+| 20.   |          |          | 110011    |          |
+| 21.   |          |          | 110110    |          |
+| 22.   |          |          | 110101    |          |
+| 23.   |          |          | 011011    |          |
+| 24.   |          |          | 111001    |          |
+| 25.   |          |          | 111010    |          |
+| 26.   |          |          | 011101    |          |
+| 27.   |          |          | 100111    |          |
+| 28.   |          |          | 101110    |          |
+| 29.   |          |          | 101011    |          |
+| 30.   |          |          | 101101    |          |
+| 31.   |          |          | 010111    |          |
+| 32.   |          |          |           | 111111   |
 
+### Exercise 1.2.4
 
+> Explain why a channel with *p* = 0 is uninteresting.
