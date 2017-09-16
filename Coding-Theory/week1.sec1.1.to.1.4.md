@@ -122,17 +122,27 @@ If we sum all cases 1 +15 +15 +1 = 32 maximum different cases.
 
 > Explain why a channel with *p* = 0 is uninteresting.
 
-If every time encoder (transmitter) transmits 0, decoder (receiver) receives 0 and vice versa. Which means our channel is %100 reliable and makes probability of channel equals to '1' (***p* = 1**). There is no need to change any digits.
+If every time encoder (transmitter) transmits 0, decoder (receiver) receives 0 and vice versa which means our channel is %100 reliable and makes probability of channel equals to '1' (***p* = 1**). There is no need to change any digits.
 
-One the other hand If every time encoder (transmitter) transmits 1, decoder (receiver) receives 0 and vice versa. Which means our channel is %100 **unreliable** and makes probability of channel equals to '0' (***p* = 0**). There is need to change every digit. For instance, encoder sent 1 but decoder received 0 and we have already known channel with ***p* = 0**. Every digit is changed by decoder.
+One the other hand If every time encoder (transmitter) transmits 1, decoder (receiver) receives 0 and vice versa which means our channel is %100 **unreliable** and makes probability of channel equals to '0' (***p* = 0**). There is need to change every digit. For instance, encoder sent 1 but decoder received 0 and we have already known channel with ***p* = 0**. Every digit is changed by decoder.
 
-To sum, there is no importance when channel with ***p* = 0** or ***p* = 1**.
-
-
+To sum up, there is no importance when channel is with ***p* = 0** or ***p* = 1**.
 
 ### Exercise 1.2.5
 
-> Explain how to convert a channel with 0 < *p* <= 1/2 into a channel with 1/2 <= *p* < 1.
+> Explain how to convert a channel is with 0 < *p* <= 1/2 into a channel with 1/2 <= *p* < 1.
+
+We replace each '0' with a '1' and each '1' with '0'.
+
+Let's explain why we replace?
+
+If A channel is with *p* <= 1/2, %50 or more digits is recieved wrong.
+
+How we can handle with this?
+
+If we change every digits, the channel becomes with 1/2 <= *p*.
+
+In conclusion, when we change the every digit, they becomes %50 or more true and channel is with 1/2 <= *p* < 1.
 
 ### Exercise 1.2.6
 
@@ -147,7 +157,9 @@ To sum, there is no importance when channel with ***p* = 0** or ***p* = 1**.
 > Add a parity check digit to the codewords in the code **Exercise 1.3.4**, and use the resulting code *C* to answer the following  questions.
 
   (a) If 1101 is received can we detect an eror?
+  
   (b) If 1101 is received what codewords were most likely to have been trasmitted?
+  
   (c) Is any word of legth 4 that is nott in the code, cloeset to a unique codeword?
 
 ### Exercise 1.3.6
@@ -155,8 +167,11 @@ To sum, there is no importance when channel with ***p* = 0** or ***p* = 1**.
 > Repea each codewoord in the code *C* defined in **Exercise 1.3.4** three times to form a repetition code of length 9. Find the closest codewords to the following recieved words:
 
   (a) 001000001
+  
   (b) 011001011
+  
   (c) 101000101
+  
   (d) 100000010
  
 ### Exercise 1.3.7
