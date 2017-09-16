@@ -142,13 +142,14 @@ How we can handle with this?
 
 If we change every digit, the channel becomes with 1/2 <= *p*.
 
-In conclusion, when we change every digit, they change as %50 or more correct and channel with 1/2 <= *p* < 1.
+In conclusion, when we change every digit, they change as %50 or more correct and the channel becomes with 1/2 <= *p* < 1.
 
 ### Exercise 1.2.6
 
 > What can be said about a channel with *p*=1/2?
 
-*p*=1/2? means there is %50 chance to receice correct or %50 uncorrect.
+*p*=1/2 means there is %50 chance to receive correct or %50 incorrect.
+
 
 ### Exercise 1.3.4
 
