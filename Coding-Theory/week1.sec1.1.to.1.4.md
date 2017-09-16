@@ -57,7 +57,7 @@ According to the exercises
 
 ### Exercise 1.2.3
 
-> Let *C* be the code consisting of all words of lenght 6 having an even number of ones. List he codewords in *C*.
+> Let *C* be the code consisting of all words of length 6 having an even number of ones. List the codewords in *C*.
 
 *C* = {00, 10, 01 ,11}.
 
