@@ -2,35 +2,35 @@
 
 >2017-09-05 22:47
 
-Human Computer Interaction for bachelor students. [Syllabus.]()
+Human Computer Interaction for bachelor students. [Syllabus.](https://github.com/devcan/Vilnius-University-2017-Autumn/blob/master/Human-Computer-Interaction/Materials/5s_HCI.pdf)
 
-Read course assignment [requirements.]() Word [template]() might be useful for written assignments.
+Read course assignment [requirements.](https://github.com/devcan/Vilnius-University-2017-Autumn/blob/master/Human-Computer-Interaction/Materials/0_requirements_2017_spring.pdf) Word [template](https://github.com/devcan/Vilnius-University-2017-Autumn/blob/master/Human-Computer-Interaction/Materials/Template.docx) might be useful for written assignments.
 
-Exam will take place on the 5th of June in the room 421 at 10 a.m.   [**Exam questions**]()
+Exam will take place on the 5th of June in the room 421 at 10 a.m.   [**Exam questions**](https://github.com/devcan/Vilnius-University-2017-Autumn/blob/master/Human-Computer-Interaction/Materials/Exam-_questions_2017_2.pdf)
 
 (Earlier term: the 2nd of June, 14:00 (407 Didl).
 
 Description of assignment s:
 
-1. [User needs analysis]() (Deadline: the 10th of October) [Review assignment 1]()
+1. [User needs analysis](https://github.com/devcan/Vilnius-University-2017-Autumn/blob/master/Human-Computer-Interaction/Materials/1_assignment_2017.pdf) (Deadline: the 10th of October) [Review assignment 1](https://docs.google.com/forms/d/13eLzArkyNkfh-4JqedHaW94oMdNyM0Wl97Qg94NIUm0/viewform?edit_requested=true)
 
-2. [Alternative mockups.]() (Deadline: the 14th of November. [Review assignment 2]()
+2. [Alternative mockups.](https://github.com/devcan/Vilnius-University-2017-Autumn/blob/master/Human-Computer-Interaction/Materials/2_Alternative-mockups.pdf) (Deadline: the 14th of November. [Review assignment 2](https://docs.google.com/forms/d/1FBEOLVRCOjXAVE1FkvfwnoVzEPSsdvZFO0XpEJwRY-M/viewform?edit_requested=true)
 
-3. [Analytical evaluation.]() Deadline: the 14th of November,  [Review asignment 3]()
+3. [Analytical evaluation.](https://github.com/devcan/Vilnius-University-2017-Autumn/blob/master/Human-Computer-Interaction/Materials/3_AnalyticalEvaluations2017.pdf) Deadline: the 14th of November,  [Review asignment 3](https://docs.google.com/forms/d/1Nd9fNDW80yoNsXfrlq5zp1SEXpm2OVNPZmfc_oSTOCc/viewform?edit_requested=true)
     * Guidelines and checklists that help to conduct heuristic evaluation
-      * [Usability guidelines for heuristic evaluation;]()
-      * [By Deniese Pierotti,]()  Xerox Corporation
-      * [webcriteria]() checklist
-      * [25-point Website Usability Checklist](), Dr. Pete blog
+      * [Usability guidelines for heuristic evaluation;](https://uxcentered.wordpress.com/category/information-architecture/content-evaluation/)
+      * [By Deniese Pierotti,](ftp://ftp.cs.uregina.ca/pub/class/305/lab2/example-he.html)  Xerox Corporation
+      * [webcriteria](https://github.com/devcan/Vilnius-University-2017-Autumn/blob/master/Human-Computer-Interaction/Materials/Heuristic%20Evaluation%20Checklist.pdf) checklist
+      * [25-point Website Usability Checklist](http://drpete.co/?topic=25-point-website-usability-checklist), Dr. Pete blog
 
 4. Prototype (deadline – end of the semester)
-    * Useful prototyping tool: [Proto.io]() (only 11 days)
+    * Useful prototyping tool: [Proto.io](https://proto.io/) (only 11 days)
 
 5. Usability testing (deadline – end of the semester).
-    * [CIF structure of the deliverable.]()
-    * Informed consent [template]()
-    * The examples of documents needed for usability session can be found at: [Information & Design](), [Usability.gov.]()
-    * An example of professional usability test report from the [Dialog Design]()
+    * [CIF structure of the deliverable.](https://github.com/devcan/Vilnius-University-2017-Autumn/blob/master/Human-Computer-Interaction/Materials/common-industry-format.pdf)
+    * Informed consent [template](https://www.usability.gov/how-to-and-tools/resources/templates/consent-recording-release-form-adult.html)
+    * The examples of documents needed for usability session can be found at: [Information & Design](http://infodesign.com.au/usabilityresources/usabilitytestingmaterials/), [Usability.gov.](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+    * An example of professional usability test report from the [Dialog Design](http://www.dialogdesign.dk/Test_Reports.htm)
 
 
 
