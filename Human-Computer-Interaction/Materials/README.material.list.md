@@ -28,7 +28,7 @@ Description of assignment s:
 
 5. Usability testing (deadline – end of the semester).
     * [CIF structure of the deliverable.]()
-    * Informed consent template
+    * Informed consent [template]()
     * The examples of documents needed for usability session can be found at: [Information & Design](), [Usability.gov.]()
     * An example of professional usability test report from the [Dialog Design]()
 
