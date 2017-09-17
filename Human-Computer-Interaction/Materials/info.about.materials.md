@@ -1,7 +1,7 @@
 ### Lectures
 
-1. Introduction to the course (pdf) – Feb 10, 2017
-1 Homework:  create a team and propose an idea that will form the basis of a course project for this semester.
+1. [Introduction to the course (pdf) – Feb 10, 2017
+1 Homework:  create a team and propose an idea that will form the basis of a course project for this semester.] (https://github.com/devcan/Vilnius-University-2017-Autumn/blob/master/Human-Computer-Interaction/Materials/1_introduction2017.pdf)
 
 2. User needs analysis – PACT framework (pdf) – Feb 17, 2017
 Homework: Approach the project idea from the PACT perspective. Who are the users? Which current user activities can be improved using technologies?
