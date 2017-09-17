@@ -1,3 +1,39 @@
+# HCI, Fall semester, 2017
+
+>2017-09-05 22:47
+
+Human Computer Interaction for bachelor students. Syllabus.
+
+Read course assignment requirements. Word template might be useful for written assignments.
+
+Exam will take place on the 5th of June in the room 421 at 10 a.m.   Exam questions
+
+(Earlier term: the 2nd of June, 14:00 (407 Didl).
+
+Description of assignment s:
+
+1. User needs analysis (Deadline: the 10th of October) Review assignment 1
+
+2. Alternative mockups. (Deadline: the 14th of November. Review assignment 2
+
+3. Analytical evaluation. Deadline: the 14th of November,  Review asignment 3
+    * Guidelines and checklists that help to conduct heuristic evaluation
+      * Usability guidelines for heuristic evaluation;
+      * By Deniese Pierotti,  Xerox Corporation
+      * webcriteria checklist
+      * 25-point Website Usability Checklist, Dr. Pete blog
+
+4. Prototype (deadline – end of the semester)
+    * Useful prototyping tool: Proto.io (only 11 days)
+
+5. Usability testing (deadline – end of the semester).
+    * CIF structure of the deliverable.
+    * Informed consent template
+    * The examples of documents needed for usability session can be found at: Information & Design, Usability.gov.
+    * An example of professional usability test report from the Dialog Design
+
+
+
 ### Lectures
 
 1. [Introduction to the course (pdf) – Feb 10, 2017
