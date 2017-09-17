@@ -170,15 +170,15 @@ In conclusion, when we change every digit, they change as %50 or more correct an
 Let's check codewords first.
 
 | Order | Codewords |
-| ----- | --------- | 
-| 1.    | 0000      |      
-| 2.    | 0011      | 
+| ----- | --------- |
+| 1.    | 0000      |
+| 2.    | 0011      |
 | 3.    | 1100      |
 | 4.    | 0110      |
 | 5.    | 1010      |
 | 6.    | 0101      |
 | 7.    | 1001      |
-| 8.    | 1111      | 
+| 8.    | 1111      |
 
 (a) Yes, hence it has **'parity check digit'** which means number of '1' must be even.
 
@@ -219,11 +219,28 @@ It can be;
 ### Exercise 1.3.7
  
 > Find the maximum number of length *n* = 4 in a code in which any single error can be detected.
+
+| Order | Codewords |
+| ----- | --------- |
+| 1.    | 0000      |
+| 2.    | 0011      |
+| 3.    | 1100      |
+| 4.    | 0110      |
+| 5.    | 1010      |
+| 6.    | 0101      |
+| 7.    | 1001      |
+| 8.    | 1111      |
  
 ### Exercise 1.3.8
  
 > Repeat **Exercise 1.3.7** for *n* = 5, *n* = 6 and for general *n*.
 
-### Exercise 1.3.8
+General formula is **2 ^ (n-1)**;
+
+* for n = 5; 2 ^ 4 = 16
+
+* for n = 6; 2 ^ 5 = 32
+
+### Exercise 1.4.1
 
 > Find the information rate for each of the codes in **Exercise 1.3.4, Exercise 1.3.5, Exercise 1.3.6**.
