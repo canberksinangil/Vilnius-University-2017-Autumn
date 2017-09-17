@@ -244,3 +244,9 @@ General formula is **2 ^ (n-1)**;
 ### Exercise 1.4.1
 
 > Find the information rate for each of the codes in **Exercise 1.3.4, Exercise 1.3.5, Exercise 1.3.6**.
+
+| Exercises      | Information Rate |
+| -------------- | ---------------- |
+| Exercise 1.3.4 | 1                |
+| Exercise 1.3.5 | 3/4              |
+| Exercise 1.3.6 | 1/3              |
