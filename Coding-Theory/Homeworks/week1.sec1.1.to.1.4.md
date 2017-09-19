@@ -155,7 +155,7 @@ In conclusion, when we change every digit, they change as %50 or more correct an
 
 > Let *C* be the code of all words length 3. Determine which codeword was most likely sent if 001 is received.
 
-001.
+001
 
 ### Exercise 1.3.5
 
