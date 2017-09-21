@@ -142,7 +142,9 @@ How we can handle with this?
 
 If we change every digit, the channel becomes with ½ <= *p*.
 
-In conclusion, when we change every digit, they change as %50 or more correct and the channel becomes as with ½ <= *p* < 1.
+In conclusion, when we change every digit, they change as %50 or more correct and the channel becomes as with 
+
+½ <= *p* < 1.
 
 ### Exercise 1.2.6
 
@@ -157,9 +159,7 @@ In conclusion, when we change every digit, they change as %50 or more correct an
 
 If we do not know the channel, we always accept that channel is with ½ <= p < 1. It means probability of channel for receiving digits correctly equals or more than %50. According to this proof while we are calculating ‘most likely sent’ we must choose greatest possibility.
 
-
-
-001
+For this question greatest probability is '001' as rececived.
 
 ### Exercise 1.3.5
 
@@ -248,6 +248,13 @@ General formula is **2 ^ (n-1)**;
 ### Exercise 1.4.1
 
 > Find the information rate for each of the codes in **Exercise 1.3.4, Exercise 1.3.5, Exercise 1.3.6**.
+
+'Information Rate' formula is
+
+![Inormation Rate Formula](https://github.com/devcan/Vilnius-University-2017-Autumn/blob/master/Coding-Theory/Images/information_rate_formula.jpg?raw=true)
+
+***n*** = Length of codewords
+***|C|*** = Quantity (number) of codewords
 
 | Exercises      | Information Rate |
 | -------------- | ---------------- |
