@@ -59,7 +59,7 @@ According to the exercises
 
 > Let *C* be the code consisting of all words of length 6 having an even number of ones. List the codewords in *C*.
 
-First of all we have a condition, codewords must have even quantity of '1'. Which means quantity of '1' can be 0, 2, 4 or 6. According to the condition let's calculate possibilities.
+First of all, we have a condition, codewords must have even quantity of '1'. Which means quantity of '1' can be 0, 2, 4 or 6. According to the condition let's calculate possibilities.
 
 #### Case 1
 
@@ -67,15 +67,15 @@ First of all we have a condition, codewords must have even quantity of '1'. Whic
 
 #### Case 2
 
-'2' quantity for 1 = 6! / 2!x4! = 15
+'2' quantity for 1 = 6! / 2! x 4! = 15
 
 > Short Way: Imagine that you have got 2 keys and you have got 6 boxes and you want to put these keys into the boxes. My question is how many **different** ways can you put the keys into the boxes?
 
-> You can use combinations C(6 , 2).
+> You can use combinations C (6, 2).
 
 #### Case 3
 
-'4' quantity for 1 = 6! / 4!x2! = 15
+'4' quantity for 1 = 6! / 4! x 2! = 15
 
 #### Case 4
 
@@ -130,13 +130,13 @@ To sum up, there is no importance when channel is with ***p* = 0** or ***p* = 1*
 
 ### Exercise 1.2.5
 
-> Explain how to convert a channel is with 0 < *p* <= ½  into a channel with ½  <= *p* < 1.
+> Explain how to convert a channel is with 0 < *p* <= ½ into a channel with ½ <= *p* < 1.
 
 We replace each '0' with a '1' and each '1' with '0'.
 
 Let's explain why we replace?
 
-If a channel is with *p* <= ½ , %50 or more digits is received wrong.
+If a channel is with *p* <= ½, %50 or more digits is received wrong.
 
 How we can handle with this?
 
@@ -159,7 +159,7 @@ In conclusion, when we change every digit, they change as %50 or more correct an
 
 If we do not know the channel, we always accept that channel is with ½ <= p < 1. It means probability of channel for receiving digits correctly equals or more than %50. According to this proof while we are calculating ‘most likely sent’ we must choose greatest possibility.
 
-For this question greatest probability is '001' as rececived.
+For this question, greatest probability is '001' as received.
 
 ### Exercise 1.3.5
 
@@ -224,6 +224,8 @@ It can be;
  
 > Find the maximum number of length *n* = 4 in a code in which any single error can be detected.
 
+**Even number of ones.**
+
 | Order | Codewords |
 | ----- | --------- |
 | 1.    | 0000      |
@@ -234,7 +236,27 @@ It can be;
 | 6.    | 0101      |
 | 7.    | 1001      |
 | 8.    | 1111      |
- 
+
+**OR**
+
+**Odd number of ones.**
+
+| Order | Codewords |
+| ----- | --------- |
+| 1.    | 1110      |
+| 2.    | 0111      |
+| 3.    | 1101      |
+| 4.    | 1011      |
+| 5.    | 1000      |
+| 6.    | 0100      |
+| 7.    | 0010      |
+| 8.    | 0001      |
+
+We must choose the codewords **at least two differences**.
+
+For example, 0000 and 0001 have just one difference. We cannot understand which code is sent. But if we have 0000 and 0011 which have two differences, we able to understand when we receive 0001. Because we are only using even number of ones or odd number of ones which makes our codewords have at least two differences. According to this idea we can only use half of codewords list to detect any single error.
+
+
 ### Exercise 1.3.8
  
 > Repeat **Exercise 1.3.7** for *n* = 5, *n* = 6 and for general *n*.
@@ -249,12 +271,13 @@ General formula is **2 ^ (n-1)**;
 
 > Find the information rate for each of the codes in **Exercise 1.3.4, Exercise 1.3.5, Exercise 1.3.6**.
 
-'Information Rate' formula is
+'Information Rate' formula is;
 
-![Inormation Rate Formula](https://github.com/devcan/Vilnius-University-2017-Autumn/blob/master/Coding-Theory/Images/information_rate_formula.jpg?raw=true)
+![Information Rate Formula](https://github.com/devcan/Vilnius-University-2017-Autumn/blob/master/Coding-Theory/Images/information_rate_formula.jpg?raw=true)
 
-***n*** = Length of codewords
-***|C|*** = Quantity (number) of codewords
+***n*** = Length of codewords.
+
+***|C|*** = Quantity (number) of codewords.
 
 | Exercises      | Information Rate |
 | -------------- | ---------------- |
