@@ -130,30 +130,34 @@ To sum up, there is no importance when channel is with ***p* = 0** or ***p* = 1*
 
 ### Exercise 1.2.5
 
-> Explain how to convert a channel is with 0 < *p* <= 1/2 into a channel with 1/2 <= *p* < 1.
+> Explain how to convert a channel is with 0 < *p* <= ½  into a channel with ½  <= *p* < 1.
 
 We replace each '0' with a '1' and each '1' with '0'.
 
 Let's explain why we replace?
 
-If a channel is with *p* <= 1/2, %50 or more digits is received wrong.
+If a channel is with *p* <= ½ , %50 or more digits is received wrong.
 
 How we can handle with this?
 
-If we change every digit, the channel becomes with 1/2 <= *p*.
+If we change every digit, the channel becomes with ½ <= *p*.
 
-In conclusion, when we change every digit, they change as %50 or more correct and the channel becomes as with 1/2 <= *p* < 1.
+In conclusion, when we change every digit, they change as %50 or more correct and the channel becomes as with ½ <= *p* < 1.
 
 ### Exercise 1.2.6
 
-> What can be said about a channel with *p*=1/2?
+> What can be said about a channel with *p*=½?
 
-*p*=1/2 means there is %50 chance to receive correct or %50 incorrect.
+*p*=½ means there is %50 chance to receive correct or %50 incorrect.
 
 
 ### Exercise 1.3.4
 
 > Let *C* be the code of all words length 3. Determine which codeword was most likely sent if 001 is received.
+
+If we do not know the channel, we always accept that channel is with ½ <= p < 1. It means probability of channel for receiving digits correctly equals or more than %50. According to this proof while we are calculating ‘most likely sent’ we must choose greatest possibility.
+
+
 
 001
 
