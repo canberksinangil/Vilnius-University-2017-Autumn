@@ -4,21 +4,23 @@
 
 ### Exercise 1.6.2
 
-> Calculate ϕ<sub>.97</sub>(v, w) for each fo the following pairs of *v* and *w*:
-
-> (a) *v* = 01101101, *w* = 10001110
+> Calculate *ϕ*<sub>*.97*</sub>(*v*, *w*) for each fo the following pairs of *v* and *w*:
 
 > (b) *v* = 1110101, *w* = 1110101
 
-> (c) *v* = 00101, *w* = 11010
-
-> (d) *v* = 00000, *w* = 00000
-
 > (e) *v* = 1011010, *w* = 0000010
 
-> (f) *v* = 101010, *w* = 01001
-
 > (g) *v* = 111101, *w* = 000010.
+
+Our formula is:
+
+***ϕ*<sub>*p*</sub>(*v*, *w*) = *p*<sup>*n-d*</sup>(1-*p*)<sup>*d*</sup>**
+
+  * *p* = Reliability (probability of incorret digits).
+  * *v* = Transmitted.
+  * *w* = Received.
+  * *n* = Length.
+  * *d* = Positions (incorret digits).
 
 ### Exercise 1.6.9
 
