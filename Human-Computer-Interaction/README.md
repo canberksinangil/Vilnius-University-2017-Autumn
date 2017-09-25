@@ -93,4 +93,4 @@ Recommended readings (available in the library of the Faculty of Mathematics and
 
 >Last updated: 2017-09-15 11:07
 
-***I just copied from our lecturer' [website](http://web.vu.lt/mif/k.lapin/hci-fall-semester-2017/ "Kristina Lapin Website") I did not check any grammer or orthographic rules. Also I did not change any materials file name.***  
+***I just copied from our lecturer' [website](http://web.vu.lt/mif/k.lapin/hci-fall-semester-2017/ "Kristina Lapin Website") I did not check any grammar or orthographic rules. Also, I did not change any materials file name.***  
