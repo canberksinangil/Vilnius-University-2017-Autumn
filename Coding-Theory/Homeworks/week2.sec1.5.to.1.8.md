@@ -14,7 +14,7 @@
 
 Our formula is:
 
-***ϕ*<sub>*p*</sub>(*v*, *w*) = *p*<sup>*n-d*</sup>(1-*p*)<sup>*d*</sup>**
+#### ***ϕ*<sub>*p*</sub>(*v*, *w*) = *p*<sup>*n-d*</sup>(1-*p*)<sup>*d*</sup>**
 
   * *p* = Reliability (probability of incorret digits).
   * *v* = Transmitted.
