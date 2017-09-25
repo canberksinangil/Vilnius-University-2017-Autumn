@@ -22,6 +22,31 @@ Our formula is:
   * *n* = Length.
   * *d* = Positions (incorret digits).
 
+According to the formula let's calculate for each codewords.
+
+For (b);
+
+*ϕ*<sub>*.97*</sub>(1110101, 1110101)
+
+  * *p* = 0.97
+  * *v* = 1110101
+  * *w* = 1110101
+  * *n* = 7
+  * *d* = 0 (There is no inncorret digits rececived).
+
+*ϕ*<sub>*.97*</sub>(1110101, 1110101)= *p*<sup>7</sup>
+
+(0.97)<sup>7</sup> = 0.80798284478113
+
+
+For (e);
+
+*ϕ*<sub>*.97*</sub>(1011010, 0000010)
+
+For (g);
+
+*ϕ*<sub>*.97*</sub>(111101, 000010)
+
 ### Exercise 1.6.9
 
 > Which of the codewords 110110, 110101, 000111, 1000111, 101000 is most likely to have been sent if *w* = 011001 is received.
