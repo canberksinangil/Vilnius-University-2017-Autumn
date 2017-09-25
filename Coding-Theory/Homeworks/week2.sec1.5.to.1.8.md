@@ -104,9 +104,30 @@ Aswer is '101000' thus it has minumum number of disagreement (*d*).
 
 > Show that if *v* is a word in *K<sup>n</sup>* then *v* + *v* = 0.
 
+Let's check the rules first!
+
+| Order | Process | Result |
+| ----- | ------- | ------ |
+| 1.    | 0 + 0   | 0      |
+| 2.    | 0 + 1   | 1      |
+| 3.    | 1 + 0   | 1      |
+| 4.    | 1 + 1   | 0      |
+| 5.    | 0 * 0   | 0      |
+| 6.    | 0 * 1   | 0      |
+| 7.    | 1 * 0   | 0      |
+| 8.    | 1 * 1   | 1      |
+
+Every digit will sum with itself which means result of every codition will be '0'. 
+
+> Hint: Rule '1' and '4' on the above.
+
 ### Exercise 1.7.2
 
 > Show that if *v* and *w* are words in *K<sup>n</sup>* and *v* + *w* = 0 then *v* = *w*.
+
+Logic is same as **Exercise 1.7.1**. If *v* and *w* are not equal, their sum can not be '0'.
+
+> Hint: Rule '1' and '4' on the above.
 
 ### Exercise 1.7.3
 
