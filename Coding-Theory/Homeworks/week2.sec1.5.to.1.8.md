@@ -90,6 +90,16 @@ Aswer is '101000' thus it has minumum number of disagreement (*d*).
 
 > (b) p = 1/2?
 
+![Theorem 1.6.3](https://github.com/devcan/Vilnius-University-2017-Autumn/blob/master/Coding-Theory/Images/theorem_1.6.3.jpg?raw=true)
+
+#### For (a);
+
+*ϕ*<sub>*p*</sub>(*v*<sub>1</sub>, *w*) <= *ϕ*<sub>*p*</sub>(*v*<sub>2</sub>, *w*) iff *d*<sub>1</sub> <= *d*<sub>2</sub>
+
+#### For (b);
+
+*ϕ*<sub>*p*</sub>(*v*, *w*) = (1/2)<sup>*n*</sup)> for any *w* and any *v*.
+
 ### Exercise 1.7.1
 
 > Show that if *v* is a word in *K<sup>n</sup>* then *v* + *v* = 0.
