@@ -119,7 +119,7 @@ Let's check the rules first!
 
 Every digit will sum with itself which means result of every codition will be '0'. 
 
-> Hint: Rule '1' and '4' on the above.
+> _Hint: Rule '1' and '4' on the above._
 
 ### Exercise 1.7.2
 
@@ -127,7 +127,7 @@ Every digit will sum with itself which means result of every codition will be '0
 
 Logic is same as **Exercise 1.7.1**. If *v* and *w* are not equal, their sum can not be '0'.
 
-> Hint: Rule '1' and '4' on the above.
+> _Hint: Rule '1' and '4' on the above._
 
 ### Exercise 1.7.3
 
@@ -135,7 +135,45 @@ Logic is same as **Exercise 1.7.1**. If *v* and *w* are not equal, their sum can
 
 ### Exercise 1.8.1
 
-> Compute the weight of each of the following words, and the distance between each pair of them: *v<sub>1</sub>* = 1001010, *v<sub>2</sub>* = 0110101, *v<sub>3</sub>* = 0011110, and *v<sub>4</sub>* = *v<sub>2</sub>* + *v<sub>3</sub>*.
+> Compute the weight of each of the following words, and the distance between each pair of them: *v*<sub>1</sub> = 1001010, *v*<sub>2</sub> = 0110101, *v*<sub>3</sub> = 0011110, and *v*<sub>4</sub> = *v*<sub>2</sub> + *v*<sub>3</sub>.
+
+How we can calculate weight and distance?
+
+#### Weight
+
+It is fundamentally number of '1' in a codeword. We just need to count quantity of '1' in a codeword.
+
+For instance:
+
+   * *v* = 1111 and *wt*(*v*) = 4
+   * *v* = 0000 and *wt*(*v*) = 0
+   * *v* = 1001 and *wt*(*v*) = 2
+
+#### Distance
+
+It is fundamentally differences between two codewords. We just need to count different digits. Same as finding eror.
+
+For instance:
+
+   * *v* = 1111, *w* = 0000 and *d*(*v*, *w*) = 4
+   * *v* = 0001, *w* = 0000 and *d*(*v*, *w*) = 1
+   * *v* = 0101, *w* = 1010 and *d*(*v*, *w*) = 4
+   
+#### Aswer
+
+Before the calculating **weight** and **distance** we must calculate *v*<sub>4</sub> = *v*<sub>2</sub> + *v*<sub>3</sub>.
+
+> _Hint: Look table in **Exercise 1.7.1** for addition rules._
+
+*v*<sub>4</sub> = 0110101 + 0011110 = 0101011
+
+| Order           | Codeword *v* | Weight *wt*(*v*) |
+| --------------- | ------------ | ---------------- |
+| *v*<sub>1</sub> | 1001010      | 3                |
+| *v*<sub>2</sub> | 0110101      | 4                |
+| *v*<sub>3</sub> | 0011110      | 4                |
+| *v*<sub>4</sub> | 0101011      | 4                |
+
 
 ### Exercise 1.8.2
 
