@@ -80,7 +80,7 @@ According to the formula let's calculate for each codewords.
 | 4.    | 100111            | 011001         | 5                                                     |
 | 5.    | 101000            | 011001         | 3                                                     |
 
-Aswer is = '101000' thus it has minumum number of disagreement (*d*).
+Aswer is '101000' thus it has minumum number of disagreement (*d*).
 
 ### Exercise 1.6.10
 
