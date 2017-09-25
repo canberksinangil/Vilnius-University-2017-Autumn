@@ -24,7 +24,7 @@ Our formula is:
 
 According to the formula let's calculate for each codewords.
 
-For (b);
+#### For (b);
 
 *ϕ*<sub>*.97*</sub>(1110101, 1110101)
 
@@ -39,7 +39,7 @@ For (b);
 (0.97)<sup>7</sup> = 0.80798284478113
 
 
-For (e);
+#### For (e);
 
 *ϕ*<sub>*.97*</sub>(1011010, 0000010)
 
@@ -53,7 +53,7 @@ For (e);
 
 (0.97)<sup>4</sup>(1-*0.97*)<sup>*3*</sup> = 0.88529281 * 0.000027 = 0.00002390290587
 
-For (g);
+#### For (g);
 
 *ϕ*<sub>*.97*</sub>(111101, 000010)
 
