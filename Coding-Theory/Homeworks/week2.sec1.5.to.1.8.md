@@ -133,6 +133,20 @@ Logic is same as **Exercise 1.7.1**. If *v* and *w* are not equal, their sum can
 
 > Show that if *u*, *v* and *w* are words in *K<sup>n</sup>* and *u* + *v* = *w* then *u* + *w* = *v*.
 
+> _Hint: Look table in **Exercise 1.7.1** for addition rules._
+
+| Order | *v*   | *u*   | *w*  | *u* + *v* = *w* | *u* + *w* = *v* |
+| ----- | ----- | ----- | ---- | --------------- | --------------- |
+| 1.    | 1     | 0     | 1    | 1               | 1               |
+| 2.    | 1     | 1     | 0    | 0               | 1               |
+| 3.    | 0     | 0     | 0    | 0               | 0               |
+| 4.    | 0     | 1     | 1    | 1               | 0               |
+| 5.    | 111   | 000   | 111  | 111             | 111             |
+| 6.    | 101   | 101   | 000  | 000             | 101             |
+
+According to the rule  (***u* + *v* = *w* then *u* + *w* = *v***), we can say that when we add *u* to *v*, if result is *w*, then we add *u* to *w* result also *v* because of addition rules.     
+
+
 ### Exercise 1.8.1
 
 > Compute the weight of each of the following words, and the distance between each pair of them: *v*<sub>1</sub> = 1001010, *v*<sub>2</sub> = 0110101, *v*<sub>3</sub> = 0011110, and *v*<sub>4</sub> = *v*<sub>2</sub> + *v*<sub>3</sub>.
