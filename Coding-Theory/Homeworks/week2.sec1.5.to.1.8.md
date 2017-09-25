@@ -206,6 +206,34 @@ Before the calculating **weight** and **distance** we must calculate *v*<sub>4</
 
 > Construct an example *K<sup>5</sup>* of each of the eleven rules above.
 
+#### 1. 0 <= *wt*(*v*) <= *n*
+
+| Order | *v*   | *wt*(*v*) | Prove                 |
+| ----- | ----- | --------- | --------------------- |
+| 1.    | 11111 | 5         | *wt*(*v*) = *n*       |
+| 2.    | 00000 | 0         | 0 = *wt*(*v*)         |
+| 3.    | 10101 | 3         | 0 <= *wt*(*v*) <= *n* |
+
+
+#### 2. *wt*(0) = 0
+
+#### 3. If *wt*(*v*) = 0, then *v* = 0.
+
+#### 4. 0 <= *d*(*v*,*w*) <= *n*.
+
+#### 5. *d*(*v*,*v*) = 0
+
+#### 6. If *d*(*v*,*w*) = 0, then *v* = *w*.
+
+#### 7. *d*(*v*,*w*) = *d*(*w*, *v*)
+
+#### 8. *wt*(*v* + *w*) <= *wt*(*v*) + *wt*(*w*)
+
+#### 9. *d*(*v*, *w*) <= *d*(*v*, *u*) + *d*(*u*, *w*)
+
+#### 10. *wt*(*av*) = *a* * *wt*(*v*)
+
+#### 11. *d*(*av*,*aw*) = *a* * *d*(*v*,*w*).
 ### Exercise 1.8.4
 
 > 8. *wt*(*v* + *w*) <= *wt*(*v*) + *wt*(*w*)
