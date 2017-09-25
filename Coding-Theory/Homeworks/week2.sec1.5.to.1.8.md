@@ -98,7 +98,7 @@ Aswer is '101000' thus it has minumum number of disagreement (*d*).
 
 #### For (b);
 
-*ϕ*<sub>*p*</sub>(*v*, *w*) = (1/2)<sup>*n*</sup)> for any *w* and any *v*.
+*ϕ*<sub>*p*</sub>(*v*, *w*) = (1/2)<sup>*n*</sup> for any *w* and any *v*.
 
 ### Exercise 1.7.1
 
