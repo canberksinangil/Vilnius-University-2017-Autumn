@@ -4,7 +4,7 @@
 
 ### Exercise 1.6.2
 
-> Calculate *ϕ*<sub>*.97*</sub>(*v*, *w*) for each fo the following pairs of *v* and *w*:
+> Calculate *ϕ*<sub>*.97*</sub>(*v*, *w*) for each of the following pairs of *v* and *w*:
 
 > (b) *v* = 1110101, *w* = 1110101
 
@@ -16,11 +16,11 @@ Our formula is:
 
 #### ***ϕ*<sub>*p*</sub>(*v*, *w*) = *p*<sup>*n-d*</sup>(1-*p*)<sup>*d*</sup>**
 
-  * *p* = Reliability (probability of incorret digits).
+  * *p* = Reliability (probability of incorrect digits).
   * *v* = Transmitted.
   * *w* = Received.
   * *n* = Length.
-  * *d* = Number of disagreement in *w* (incorret digits).
+  * *d* = Number of disagreement in *w* (incorrect digits).
 
 According to the formula let's calculate for each codewords.
 
@@ -32,7 +32,7 @@ According to the formula let's calculate for each codewords.
   * *v* = 1110101
   * *w* = 1110101
   * *n* = 7
-  * *d* = 0 (There is no inncorret digits rececived).
+  * *d* = 0 (There is no incorrect digits received).
 
 *ϕ*<sub>*.97*</sub>(1110101, 1110101) = *p*<sup>7</sup>
 
@@ -47,7 +47,7 @@ According to the formula let's calculate for each codewords.
   * *v* = 1011010
   * *w* = 0000010
   * *n* = 7
-  * *d* = 3 (There are '3' inncorret digits rececived).
+  * *d* = 3 (There are '3' incorrect digits received).
 
 *ϕ*<sub>*.97*</sub>(1011010, 0000010) = *p*<sup>7-3</sup>(1-*p*)<sup>*3*</sup> 
 
@@ -61,7 +61,7 @@ According to the formula let's calculate for each codewords.
   * *v* = 111101
   * *w* = 000010
   * *n* = 6
-  * *d* = 6 (There are '6' inncorret digits rececived).
+  * *d* = 6 (There are '6' incorrect digits received).
   
 *ϕ*<sub>*.97*</sub>(111101, 000010) = *p*<sup>6-6</sup>(1-*p*)<sup>*6*</sup> 
   
@@ -72,7 +72,7 @@ According to the formula let's calculate for each codewords.
 
 > Which of the codewords 110110, 110101, 000111, 1000111, 101000 is most likely to have been sent if *w* = 011001 is received.
 
-| Order | *v* = Transmitted | *w* = Received | *d* = Number of disagreement in *w* (incorret digits) |
+| Order | *v* = Transmitted | *w* = Received | *d* = Number of disagreement in *w* (incorrect digits) |
 | ----- | ----------------- | -------------- | ----------------------------------------------------- |
 | 1.    | 110110            | 011001         | 5                                                     |
 | 2.    | 110101            | 011001         | 4                                                     |
@@ -80,7 +80,7 @@ According to the formula let's calculate for each codewords.
 | 4.    | 100111            | 011001         | 5                                                     |
 | 5.    | 101000            | 011001         | 3                                                     |
 
-Aswer is '101000' thus it has minumum number of disagreement (*d*).
+Answer is '101000' thus it has minimum number of disagreement (*d*).
 
 ### Exercise 1.6.10
 
@@ -117,7 +117,7 @@ Let's check the rules first!
 | 7.    | 1 * 0   | 0      |
 | 8.    | 1 * 1   | 1      |
 
-Every digit will sum with itself which means result of every codition will be '0'. 
+Every digit will sum with itself which means result of every condition will be '0'. 
 
 > _Hint: Rule '1' and '4' on the above._
 
@@ -125,7 +125,7 @@ Every digit will sum with itself which means result of every codition will be '0
 
 > Show that if *v* and *w* are words in *K<sup>n</sup>* and *v* + *w* = 0 then *v* = *w*.
 
-Logic is same as **Exercise 1.7.1**. If *v* and *w* are not equal, their sum can not be '0'.
+Logic is same as **Exercise 1.7.1**. If *v* and *w* are not equal, their sum cannot be '0'.
 
 > _Hint: Rule '1' and '4' on the above._
 
@@ -151,7 +151,7 @@ For instance:
 
 #### Distance
 
-It is fundamentally differences between two codewords. We just need to count different digits. Same as finding eror.
+It is fundamentally differences between two codewords. We just need to count different digits. Same as finding error.
 
 For instance:
 
@@ -159,7 +159,7 @@ For instance:
    * *v* = 0001, *w* = 0000 and *d*(*v*, *w*) = 1
    * *v* = 0101, *w* = 1010 and *d*(*v*, *w*) = 4
    
-#### Aswer
+#### Answer
 
 Before the calculating **weight** and **distance** we must calculate *v*<sub>4</sub> = *v*<sub>2</sub> + *v*<sub>3</sub>.
 
@@ -332,3 +332,5 @@ Before the calculating **weight** and **distance** we must calculate *v*<sub>4</
 > 11. *d*(*av*,*aw*) = *a* * *d*(*v*,*w*).
 
 > Prove each of the four rules above.
+
+I proved in **Exercise 1.8.3** with examples
