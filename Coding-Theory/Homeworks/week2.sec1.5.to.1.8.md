@@ -175,6 +175,13 @@ Before the calculating **weight** and **distance** we must calculate *v*<sub>4</
 | *v*<sub>4</sub> | 0101011      | 4                |
 
 
+| Distance                  | *v*<sub>1</sub> = 1001010 | *v*<sub>2</sub> = 0110101 | *v*<sub>3</sub> = 0011110 | *v*<sub>4</sub> = 0101011 |
+| ------------------------- | --------------------------| ------------------------- | ------------------------- | ------------------------- |
+| *v*<sub>1</sub> = 1001010 | 0                         | 7                         | 3                         | 3                         |
+| *v*<sub>2</sub> = 0110101 | 7                         | 0                         | 4                         | 4                         |
+| *v*<sub>3</sub> = 0011110 | 3                         | 4                         | 3                         | 3                         |
+| *v*<sub>4</sub> = 0101011 | 3                         | 4                         | 3                         | 0                         |
+
 ### Exercise 1.8.2
 
 > Let *u* = 01011, *v* = 11010, *w* = 01100. Compare each of the following pairs in quantities.
