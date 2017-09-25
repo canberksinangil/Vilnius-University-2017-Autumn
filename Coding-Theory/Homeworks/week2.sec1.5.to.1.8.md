@@ -20,7 +20,7 @@ Our formula is:
   * *v* = Transmitted.
   * *w* = Received.
   * *n* = Length.
-  * *d* = Positions (incorret digits).
+  * *d* = Number of disagreement in *w* (incorret digits).
 
 According to the formula let's calculate for each codewords.
 
@@ -71,6 +71,16 @@ According to the formula let's calculate for each codewords.
 ### Exercise 1.6.9
 
 > Which of the codewords 110110, 110101, 000111, 1000111, 101000 is most likely to have been sent if *w* = 011001 is received.
+
+| Order | *v* = Transmitted | *w* = Received | *d* = Number of disagreement in *w* (incorret digits) |
+| ----- | ----------------- | -------------- | ----------------------------------------------------- |
+| 1.    | 110110            | 011001         | 5                                                     |
+| 2.    | 110101            | 011001         | 4                                                     |
+| 3.    | 000111            | 011001         | 4                                                     |
+| 4.    | 100111            | 011001         | 5                                                     |
+| 5.    | 101000            | 011001         | 3                                                     |
+
+Aswer is = '101000' thus it has minumum number of disagreement (*d*).
 
 ### Exercise 1.6.10
 
