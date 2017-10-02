@@ -159,7 +159,15 @@
 
 *Φ*<sub>*p*</sub>(*C*, 110) = 0.81 (assuming *p* = 0.90)
 
+To decode 000 only 000 can be received.
 
+> *Φ*<sub>*p*</sub>(110, 000) = *p*<sup>1</sup>(1-*p*)<sup>2</sup>
+
+*Φ*<sub>*p*</sub>(*C*, 000) = *p*(1-*p*)<sup>2</sup>
+
+*Φ*<sub>*p*</sub>(*C*, 000) = 0.90(1 - 0.90)<sup>2</sup>
+
+*Φ*<sub>*p*</sub>(*C*, 000) = 0.009 (assuming *p* = 0.90)
 
 ### Exercise 1.10.5
 
