@@ -1,6 +1,6 @@
 # Coding Theory Homework
 
-## Week 1 (Section 1.9 - 1.10)
+## Week 3 (Section 1.9 - 1.10)
 
 ### Exercise 1.9.5
 
