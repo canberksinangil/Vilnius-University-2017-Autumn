@@ -97,6 +97,8 @@
   * *w* = Received.
   * *n* = Length.
   * *d* = Number of disagreement in *w* (incorrect digits).
+  
+#### ***Φ*<sub>*p*</sub>(*C*, *v*) = Σ<sub>*w∈L*(*v*)</sub>*Φ*<sub>*p*</sub>(*v*, *w*)
 
 *Φ*<sub>*p*</sub>(*C*, 101) = *Φ*<sub>*p*</sub>(101, 100) + *Φ*<sub>*p*</sub>(101, 110) + *Φ*<sub>*p*</sub>(101, 101) + *Φ*<sub>*p*</sub>(101, 111)
 
@@ -123,6 +125,21 @@
 ### Exercise 1.10.4
 
 > Suppose *p* = .90 and *C* = {000, 001, 110}, as in Exercise 1.9.6. If *v* = 110 is sent, find the probability that IMLD will correctly conclude this, and the probability that IMLD will incorrectly conclude that 000 was sent.
+
+| Order | Received *w* | 000 + *w* | 001 + *w* | 110 + *w* | Decode *v* |
+| ----- | ------------ | --------- | --------- | --------- | ---------- |
+| 1.    | 000          | 000*      | 001       | 110       | 000        |
+| 2.    | 100          | 100**     | 101       | 010**     | !!!        |
+| 3.    | 010          | 010**     | 011       | 100**     | !!!        |
+| 4.    | 001          | 001       | 000*      | 111       | 001        |
+| 5.    | **110**      | 110       | 111       | 000*      | **110**    |
+| 6.    | 101          | 101       | 100*      | 011       | 001        |
+| 7.    | 011          | 011       | 010*      | 101       | 001        |
+| 8.    | **111**      | 111       | 110       | 001*      | **110**    |
+
+#### ***ϕ*<sub>*p*</sub>(*v*, *w*) = *p*<sup>*n-d*</sup>(1-*p*)<sup>*d*</sup>**
+
+
 
 
 ### Exercise 1.10.5
