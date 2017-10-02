@@ -98,7 +98,7 @@
   * *n* = Length.
   * *d* = Number of disagreement in *w* (incorrect digits).
   
-#### ***Φ*<sub>*p*</sub>(*C*, *v*) = Σ<sub>*w∈L*(*v*)</sub>*Φ*<sub>*p*</sub>(*v*, *w*)
+#### ***Φ*<sub>*p*</sub>(*C*, *v*) = Σ<sub>*w∈L*(*v*)</sub>*Φ*<sub>*p*</sub>(*v*, *w*)**
 
 *Φ*<sub>*p*</sub>(*C*, 101) = *Φ*<sub>*p*</sub>(101, 100) + *Φ*<sub>*p*</sub>(101, 110) + *Φ*<sub>*p*</sub>(101, 101) + *Φ*<sub>*p*</sub>(101, 111)
 
@@ -139,8 +139,17 @@
 
 #### ***ϕ*<sub>*p*</sub>(*v*, *w*) = *p*<sup>*n-d*</sup>(1-*p*)<sup>*d*</sup>**
 
+#### ***Φ*<sub>*p*</sub>(*C*, *v*) = Σ<sub>*w∈L*(*v*)</sub>*Φ*<sub>*p*</sub>(*v*, *w*)**
 
+*L*(110) = {110, 111}
 
+> *Φ*<sub>*p*</sub>(110, 110) = *p*<sup>3</sup>(1-*p*)<sup>0</sup>
+
+> *Φ*<sub>*p*</sub>(110, 111) = *p*<sup>2</sup>(1-*p*)<sup>1</sup>
+
+*Φ*<sub>*p*</sub>(*C*, 110) = *p*<sup>3</sup>(1-*p*)<sup>0</sup> + *p*<sup>2</sup>(1-*p*)<sup>1</sup>
+
+*Φ*<sub>*p*</sub>(*C*, 110) = *p*<sup>3</sup> + *p*<sup>2</sup>(1-*p*)
 
 ### Exercise 1.10.5
 
