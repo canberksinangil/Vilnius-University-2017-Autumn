@@ -76,6 +76,50 @@
 
 > (b) If *v* = 101 is sent, find the probability that **IMLD** will correctly conclude this after one transmission.
 
+
+| Order | Received *w* | 001 + *w* | 101 + *w* | Decode *v* |
+| ----- | ------------ | --------- | --------- | ---------- |
+| 1.    | 000          | 001*      | 101       | 001        |
+| 2.    | **100**      | 101       | 001*      | **101**    |
+| 3.    | 010          | 011*      | 111       | 001        |
+| 4.    | 001          | 000*      | 100       | 001        |
+| 5.    | **110**      | 111       | 011*      | **101**    |
+| 6.    | **101**      | 100       | 000*      | **101**    |
+| 7.    | 011          | 010*      | 110       | 001        |
+| 8.    | **111**      | 110       | 010*      | **101**    |
+
+*L*(101) = {100, 110, 101, 111}
+
+#### ***ϕ*<sub>*p*</sub>(*v*, *w*) = *p*<sup>*n-d*</sup>(1-*p*)<sup>*d*</sup>**
+
+  * *p* = Reliability (probability of incorrect digits).
+  * *v* = Transmitted.
+  * *w* = Received.
+  * *n* = Length.
+  * *d* = Number of disagreement in *w* (incorrect digits).
+
+*Φ*<sub>*p*</sub>(*C*, 101) = *Φ*<sub>*p*</sub>(101, 100) + *Φ*<sub>*p*</sub>(101, 110) + *Φ*<sub>*p*</sub>(101, 101) + *Φ*<sub>*p*</sub>(101, 111)
+
+*n* = 3
+
+*Φ*<sub>*p*</sub>(101, 100) = *p*<sup>2</sup>(1-*p*)<sup>1</sup>
+
+*Φ*<sub>*p*</sub>(101, 110) = *p*<sup>1</sup>(1-*p*)<sup>2</sup>
+
+*Φ*<sub>*p*</sub>(101, 101) = *p*<sup>3</sup>(1-*p*)<sup>0</sup>
+
+*Φ*<sub>*p*</sub>(101, 111) = *p*<sup>2</sup>(1-*p*)<sup>1</sup>
+
+*Φ*<sub>*p*</sub>(*C*, 101) = *p*<sup>2</sup>(1-*p*) + *p*(1-*p*)<sup>2</sup> + *p*<sup>3</sup> + *p*<sup>2</sup>(1-*p*)
+
+*Φ*<sub>*p*</sub>(*C*, 101) = *p*<sup>3</sup> + 2*p*<sup>2</sup>(1-*p*) + *p*(1-*p*)<sup>2</sup>
+
+*Φ*<sub>*p*</sub>(*C*, 101) = 0.90<sup>3</sup> + 2 * 0.90<sup>2</sup>(1 - 0.90) + 0.90(1 - 0.90)<sup>2</sup>
+
+*Φ*<sub>*p*</sub>(*C*, 101) = 0.729 + 0.162 + 0.009
+
+*Φ*<sub>*p*</sub>(*C*, 101) = 0.9
+
 ### Exercise 1.10.4
 
 > Suppose *p* = .90 and *C* = {000, 001, 110}, as in Exercise 1.9.6. If *v* = 110 is sent, find the probability that IMLD will correctly conclude this, and the probability that IMLD will incorrectly conclude that 000 was sent.
