@@ -10,7 +10,7 @@
 
 ![Formula](https://github.com/devcan/Vilnius-University-2017-Autumn/blob/master/Coding-Theory/Images/decoding.sec.1.9.2.jpg)
 
-**' * ' shows less weight.**
+**' * ' shows least weight.**
 
 | Order | Received *w* | 001 + *w* | 101 + *w* | Decode *v* |
 | ----- | ------------ | --------- | --------- | ---------- |
@@ -29,7 +29,7 @@
 
 2<sup>3</sup> = 8 maximum different possibilities.
 
-**' * ' shows less weight.**
+**' * ' shows least weight.**
 
 **' ** ' shows at least one more same weight.**
 
