@@ -21,7 +21,7 @@
 
 > (ii) Prove that n code will detect the zero eror pattern *u* = 0.
 
-### Exercise 1.11.7b
+### Exercise 1.11.7
 
 > Determine the eror patterns dereected by each code in **Exercise 1.9.7** by using the **IMLD** tables constructed there
 
@@ -34,11 +34,26 @@
 
 ### Exercise 1.11.10b
 
+> Find the eror patterns detected by each following codes and compare your answers with those **Exercise 1.11.7**.
+
+> (b) *C* = {000, 001, 010, 011}
+
 ### Exercise 1.11.12b,e,f,g
+
+> Find the distance of each of following codes.
+
+> (b) *C* = {000, 001, 010, 011}
+> (e) *C* = {00000, 11111}
+> (f) *C* = {00000, 11100, 00111, 11011}
+> (g) *C* = {00000, 11110, 01111, 10001}
 
 ### Exercise 1.11.13
 
+> Find the distance of code formed by adding a parity check digit to *K*<sup>*n*</sup>.
+
 ### Exercise 1.11.9b,e,f,g
+
+> 
 
 ### Exercise 1.11.20
 
