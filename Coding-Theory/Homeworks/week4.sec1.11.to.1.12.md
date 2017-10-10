@@ -60,13 +60,32 @@ We cannot detect any error pattern. Because all of these sums will be same as th
 
 ### Exercise 1.11.7
 
-> Determine the eror patterns dereected by each code in **Exercise 1.9.7** by using the **IMLD** tables constructed there
+> Determine the eror patterns detected by each code in **Exercise 1.9.7** by using the **IMLD** tables constructed there
 
 > ### Exercise 1.9.7
 
 > Construct the IMLD table for each of the following codes.
 
 > (b) *C* = {000, 001, 010, 011}
+
+|*M*| = 4 
+
+*n* = 3      
+
+*C* = {000, 001, 010, 011}
+
+| Order | Received *w* | 000 + *w* | 001 + *w* | 010 + *w* | 011 + *w* | Decode *v* |
+| ----- | ------------ | --------- | --------- | --------- | --------- | ---------- |
+| 1.    | 000          | 000       | 001       | 010       | 011       | 000        |
+| 2.    | 100*         | 100       | 101       | 110       | 111       | 000        |
+| 3.    | 010          | 010       | 011       | 000       | 001       | 010        |
+| 4.    | 001          | 001       | 000       | 011       | 010       | 001        |
+| 5.    | 110*         | 110       | 111       | 100       | 101       | 010        |
+| 6.    | 101*         | 101       | 100       | 111       | 110       | 001        |
+| 7.    | 011          | 011       | 010       | 001       | 000       | 011        |
+| 8.    | 111*         | 111       | 110       | 101       | 100       | 011        |
+
+*u* = {100, 110, 101, 111}.
 
 ### Exercise 1.11.10
 
