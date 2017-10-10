@@ -98,8 +98,11 @@ We cannot detect any error pattern. Because all of these sums will be same as th
 > Find the distance of each of following codes.
 
 > (b) *C* = {000, 001, 010, 011}
+
 > (e) *C* = {00000, 11111}
+
 > (f) *C* = {00000, 11100, 00111, 11011}
+
 > (g) *C* = {00000, 11110, 01111, 10001}
 
 #### For (b) *C* = {000, 001, 010, 011};
@@ -150,8 +153,11 @@ The distance for *C* is *d* = 4.
 > For each code in *C* in **Exercise 1.11.12** find the eror patterns which **Theorem 1.11.14** guarantees *C* will detect.
 
 > (b) *C* = {000, 001, 010, 011}
+
 > (e) *C* = {00000, 11111}
+
 > (f) *C* = {00000, 11100, 00111, 11011}
+
 > (g) *C* = {00000, 11110, 01111, 10001}
 
 ### Exercise 1.11.20
@@ -181,8 +187,11 @@ The distance for *C* is *d* = 4.
 > (ii) find the error patterns that **Theorem 1.12.9** guarantees that *C* corrects.
 
 > (b) *C* = {000, 001, 010, 011}
+
 > (e) *C* = {00000, 11111}
+
 > (f) *C* = {00000, 11100, 00111, 11011}
+
 > (g) *C* = {00000, 11110, 01111, 10001}
 
 > ### Exercise 1.9.7
@@ -196,6 +205,9 @@ The distance for *C* is *d* = 4.
 > For each code in **Exercise 1.12.12**, find an error pattern of weight [(*d* - 1) / 2] + 1 that *C* does not correct.
 
 > (b) *C* = {000, 001, 010, 011}
+
 > (e) *C* = {00000, 11111}
+
 > (f) *C* = {00000, 11100, 00111, 11011}
+
 > (g) *C* = {00000, 11110, 01111, 10001}
