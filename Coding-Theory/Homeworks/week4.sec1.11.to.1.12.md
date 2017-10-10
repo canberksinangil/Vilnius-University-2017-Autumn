@@ -160,6 +160,22 @@ The distance for *C* is *d* = 4.
 
 > (g) *C* = {00000, 11110, 01111, 10001}
 
+#### For (b) *C* = {000, 001, 010, 011};
+
+The distance for *C* is *d* = 1.
+
+#### For (e) *C* = {00000, 11111};
+
+The distance for *C* is *d* = 5.
+
+#### For (f) *C* = {00000, 11100, 00111, 11011};
+
+The distance for *C* is *d* = 4.
+
+#### For (g) *C* = {00000, 11110, 01111, 10001};
+
+The distance for *C* is *d* = 4.
+
 ### Exercise 1.11.20
 
 > Let *C* be the code consisting of all words of length 4 which have even weight. Find the error pattern *C* detects.
