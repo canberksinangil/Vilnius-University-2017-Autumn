@@ -102,6 +102,17 @@ We cannot detect any error pattern. Because all of these sums will be same as th
 > (f) *C* = {00000, 11100, 00111, 11011}
 > (g) *C* = {00000, 11110, 01111, 10001}
 
+For (b) *C* = {000, 001, 010, 011};
+
+
+d(000, 001) = 1  
+d(000, 010) = 1  
+d(000, 011) = 2  
+d(001, 010) = 2  
+d(001, 011) = 1		
+d(010, 011) = 1
+
+
 ### Exercise 1.11.13
 
 > Find the distance of code formed by adding a parity check digit to *K*<sup>*n*</sup>.
