@@ -31,8 +31,7 @@
 
 > (b) *C* = {000, 001, 010, 011}
 
-
-### Exercise 1.11.10b
+### Exercise 1.11.10
 
 > Find the eror patterns detected by each following codes and compare your answers with those **Exercise 1.11.7**.
 
@@ -70,10 +69,38 @@
 
 ### Exercise 1.12.7
 
+> Prove that the zero error pattern is always corrected.
+
 ### Exercise 1.12.8
 
-### Exercise  1.12.12i:b
+> Which error patterns will the code *C* = *K*<sup>*n*</sup> correct?
 
-### Exercise 1.12.12ii:b,e,f,g
+### Exercise  1.12.12
 
-### Exercise 1.12.14b,e,f,g
+> For each following codes *C*
+
+> (i) determine the error patterns that *C* will correct (the **IMLD** tables for these codes were constructed in **Exercise 1.9.7**), and
+
+> (b) *C* = {000, 001, 010, 011}
+
+> (ii) find the error patterns that **Theorem 1.12.9** guarantees that *C* corrects.
+
+> (b) *C* = {000, 001, 010, 011}
+> (e) *C* = {00000, 11111}
+> (f) *C* = {00000, 11100, 00111, 11011}
+> (g) *C* = {00000, 11110, 01111, 10001}
+
+> ### Exercise 1.9.7
+
+> Construct the IMLD table for each of the following codes.
+
+> (b) *C* = {000, 001, 010, 011}
+
+### Exercise 1.12.14
+
+> For each code in **Exercise 1.12.12**, find an error pattern of weight [(*d* - 1) / 2] + 1 that *C* does not correct.
+
+> (b) *C* = {000, 001, 010, 011}
+> (e) *C* = {00000, 11111}
+> (f) *C* = {00000, 11100, 00111, 11011}
+> (g) *C* = {00000, 11110, 01111, 10001}
