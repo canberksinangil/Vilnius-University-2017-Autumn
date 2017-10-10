@@ -48,6 +48,8 @@ We cannot detect any error pattern. Because at least one of these sums in *C*.
 
 > Which eror patterns will the code *C* = *K*<sup>*n*</sup> detect?
 
+We cannot detect any error pattern. Because at least one of these sums have to be in *C*.
+
 ### Exercise 1.11.5
 
 > (i) Let *C* be a code contains the zero word aas a codeword. Prove that if the eror pattern *u* is a codeword, then *C* will not detect *u*.
