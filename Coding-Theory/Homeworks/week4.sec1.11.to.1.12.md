@@ -52,9 +52,11 @@ We cannot detect any error pattern. Because at least one of these sums have to b
 
 ### Exercise 1.11.5
 
-> (i) Let *C* be a code contains the zero word aas a codeword. Prove that if the eror pattern *u* is a codeword, then *C* will not detect *u*.
+> (i) Let *C* be a code contains the zero word as a codeword. Prove that if the eror pattern *u* is a codeword, then *C* will not detect *u*.
 
 > (ii) Prove that n code will detect the zero eror pattern *u* = 0.
+
+We cannot detect any error pattern. Because all of these sums will be same as the codeword itself. (CCC + 000 = CCC)
 
 ### Exercise 1.11.7
 
