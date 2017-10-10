@@ -12,7 +12,7 @@
 
 > (c) 000.
 
-**' * ' shows same codewords in *C*. **
+**' * ' shows same codewords in *C*.**
 
 For 011;
 
