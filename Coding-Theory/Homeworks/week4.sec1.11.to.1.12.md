@@ -164,17 +164,25 @@ The distance for *C* is *d* = 4.
 
 The distance for *C* is *d* = 1.
 
+We Theorem 1.11.14 does not help. Because d-1 = 1 - 1 = 0.
+
 #### For (e) *C* = {00000, 11111};
 
 The distance for *C* is *d* = 5.
+
+We can guarantee that *C* detects all the patterns with a weight of 1, 2, 3 or 4.
 
 #### For (f) *C* = {00000, 11100, 00111, 11011};
 
 The distance for *C* is *d* = 4.
 
+We can guarantee that *C* detects all the patterns with a weight of 1, 2 or 3.
+
 #### For (g) *C* = {00000, 11110, 01111, 10001};
 
 The distance for *C* is *d* = 4.
+
+We can guarantee that *C* detects all the patterns with a weight of 1, 2 or 3.
 
 ### Exercise 1.11.20
 
