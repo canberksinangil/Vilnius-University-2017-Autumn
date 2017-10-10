@@ -22,6 +22,8 @@ For 011;
 | 2.    |  101          |  011              | 110*      |
 | 3.    |  110          |  011              | 101*      |
 
+We cannot detect any error pattern. Because at least one of these sums in *C*.
+
 For 001;
 
 | Order | Codewords *v* | Error Pattern *u* | *v* + *u* |
@@ -29,6 +31,8 @@ For 001;
 | 1.    |  001          |  001              | 000       |
 | 2.    |  101          |  001              | 100       |
 | 3.    |  110          |  001              | 111       |
+
+None of these sums in *C* so we can detect error pattern. Error pattern is *u* = 001.
 
 For 000;
 
@@ -38,7 +42,7 @@ For 000;
 | 2.    |  101          |  000              | 101*      |
 | 3.    |  110          |  000              | 110*      |
 
-
+We cannot detect any error pattern. Because at least one of these sums in *C*.
 
 ### Exercise 1.11.4
 
