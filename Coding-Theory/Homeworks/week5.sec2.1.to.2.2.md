@@ -2,7 +2,7 @@
 
 ## Week 5 (Section 2.1 - 2.2)
 
-### Exercise 2.1.1befg
+### Exercise 2.1.1
 
 >  Determine which of the following codes are linear.
 
@@ -14,7 +14,7 @@
 
 > (g) *C* = {00000, 11110, 01111, 10001}
 
-### Exercise 2.1.3befg
+### Exercise 2.1.3
 
 > Find the distance of each linear code in **Exercise 2.1.1**. Check answers with Exercise **1.11.12**.
 
@@ -30,7 +30,7 @@
 
 > Prove that the distance of a linear code is the weight of the nonzero codeword of least weight.
 
-### Exercise 2.2.3abcf
+### Exercise 2.2.3
 
 > For each of the following sets *S*, list the elements of linear code for <*S*>.
 
@@ -44,7 +44,15 @@
 
 ### Exercise 2.2.4 (a is a scalar, i.e. 0 or 1)
 
+> Construct examples in *K*<sup>s</sup> of each of the following rules
+
+> (a)  *u* · (*v* + *w*) = *u* · *v* + *u* · *w*
+
+> (b) *a*(*v* · *w*) = (*av*) · *w* = *v* · (*aw*).
+
 ### Exercise 2.2.5
+
+> Prove that the two rules in **Exercise 2.2.4* hold in *K*<sup>*n*</sup>.
 
 ### Exercise 2.2.7abcf
 
