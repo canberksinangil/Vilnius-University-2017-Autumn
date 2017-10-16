@@ -131,7 +131,7 @@ The distance for *C* is *d* = 5.
 *d*(11110, 11011) = 2  
 *d*(01111, 11011) = 2  
 
-The distance for *C* is *d* = 4.
+The distance for *C* is *d* = 2.
 
 #### For (g) *C* = {00000, 11110, 01111, 10001};
 
@@ -142,7 +142,7 @@ The distance for *C* is *d* = 4.
 *d*(11110, 10001) = 4  
 *d*(01111, 10001) = 4  
 
-The distance for *C* is *d* = 4.
+The distance for *C* is *d* = 2.
 
 ### Exercise 1.11.13
 
