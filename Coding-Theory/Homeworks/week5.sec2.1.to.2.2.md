@@ -4,8 +4,6 @@
 
 ### Exercise 2.1.1befg
 
-### Exercise 2.1.1befg
-
 ### Exercise 2.1.3befg
 
 ### Exercise 2.1.4
