@@ -141,6 +141,17 @@ The distance for *C* is *d* = 2.
 
 > (f) *S* = {10101, 01010, 11111, 00011, 10110 }
 
+#### For (a) *S* = {010, 011, 111}
+
+000
+010  
+011  
+111
+010 + 011 = 001  
+010 + 111 = 101  
+011 + 111 = 100  
+010 + 011 + 111 = 110  
+
 ### Exercise 2.2.4 (a is a scalar, i.e. 0 or 1)
 
 > Construct examples in *K*<sup>s</sup> of each of the following rules
@@ -155,7 +166,7 @@ The distance for *C* is *d* = 2.
 
 ### Exercise 2.2.7
 
-> Find the dual code *C*<sup>⊥</sup> for each codes *C* =< *S* >. in **Exercise 2.2.3. 
+> Find the dual code *C*<sup>⊥</sup> for each codes *C* =< *S* >. in **Exercise 2.2.3**. 
 
 > (a) *S* = {010, 011, 111}
 
