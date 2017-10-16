@@ -10,7 +10,7 @@
 
 ### Exercise 2.2.3abcf
 
-### Exercise 2.2.4
+### Exercise 2.2.4 (a is a scalar, i.e. 0 or 1)
 
 ### Exercise 2.2.5
 
