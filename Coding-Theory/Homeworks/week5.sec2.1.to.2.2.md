@@ -44,7 +44,7 @@ It is linear code.
 
 ### Exercise 2.1.3
 
-> Find the distance of each linear code in **Exercise 2.1.1**. Check answers with Exercise **1.11.12**.
+> Find the distance of each linear code in **Exercise 2.1.1**. Check answers with **Exercise 1.11.12**.
 
 > (b) *C* = {000, 001, 010, 011}
 
@@ -53,6 +53,48 @@ It is linear code.
 > (f) *C* = {00000, 11100, 00111, 11011}
 
 > (g) *C* = {00000, 11110, 01111, 10001}
+
+> **Exercise 1.11.12**
+
+#### For (b) *C* = {000, 001, 010, 011};
+
+*d*(000, 001) = 1  
+*d*(000, 010) = 1  
+*d*(000, 011) = 2  
+*d*(001, 010) = 2  
+*d*(001, 011) = 1  
+*d*(010, 011) = 1  
+
+The distance for *C* is *d* = 1.
+
+#### For (e) *C* = {00000, 11111};
+
+*d*(00000, 11111) = 5  
+
+The distance for *C* is *d* = 5.
+
+#### For (f) *C* = {00000, 11100, 00111, 11011};
+
+*d*(00000, 11110) = 4  
+*d*(00000, 01111) = 4  
+*d*(00000, 11011) = 4  
+*d*(11110, 01111) = 2  
+*d*(11110, 11011) = 2  
+*d*(01111, 11011) = 2  
+
+The distance for *C* is *d* = 2.
+
+#### For (g) *C* = {00000, 11110, 01111, 10001};
+
+*d*(00000, 11110) = 4  
+*d*(00000, 01111) = 4  
+*d*(00000, 10001) = 2  
+*d*(11110, 01111) = 2  
+*d*(11110, 10001) = 4  
+*d*(01111, 10001) = 4  
+
+The distance for *C* is *d* = 2.
+
 
 ### Exercise 2.1.4
 
