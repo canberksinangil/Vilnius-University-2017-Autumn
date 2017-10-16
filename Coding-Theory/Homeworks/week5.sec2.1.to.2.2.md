@@ -95,6 +95,13 @@ It is linear code.
 
 > The distance for *C* is *d* = 2.
 
+#### For (b) *C* = {000, 001, 010, 011};
+
+*w*(001) = 1  
+*w*(010) = 1  
+*w*(011) = 2
+
+The distance for *C* is *d* = 1.
 
 ### Exercise 2.1.4
 
