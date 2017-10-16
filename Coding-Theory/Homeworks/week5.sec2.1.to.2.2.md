@@ -54,6 +54,19 @@
 
 > Prove that the two rules in **Exercise 2.2.4* hold in *K*<sup>*n*</sup>.
 
-### Exercise 2.2.7abcf
+### Exercise 2.2.7
+
+> Find the dual code *C*<sup>⊥</sup> for each codes *C* =< *S* >. in **Exercise 2.2.3. 
+
+> (a) *S* = {010, 011, 111}
+
+> (b) *S* = {1010, 0101, 1111}
+
+> (c) *S* = {0101, 1010, 1100}
+
+> (f) *S* = {10101, 01010, 11111, 00011, 10110 }
+
 
 ### Exercise 2.2.8
+
+> Find an example of a nonzero word *v* such that *v* . *v* = 0. What can you say about the weight of such word?
