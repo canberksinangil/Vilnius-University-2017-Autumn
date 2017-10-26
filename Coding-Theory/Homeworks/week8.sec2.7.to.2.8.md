@@ -18,7 +18,7 @@
 
 ### Exercise 2.8.10b
 
-### Exercise  2.8.11b
+### Exercise 2.8.11b
 
 ### Exercise 2.8.12a
 
