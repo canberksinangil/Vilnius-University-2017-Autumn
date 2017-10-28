@@ -69,12 +69,26 @@
 
 ### Exercise 2.3.23b
 
+> Find the number of different bases for each code *C* = <*S*> for
+
+> (b) *S* = {1010, 0101, 1111}.
+
 ### Exercise 2.4.1(only BC)
+
+> Find the product of each pair of the following matrices ehenever the product is defined.
 
 ### Exercise 2.4.2
 
+> Find the 2 x 2 matrices *A* and *B* over *K* such that *AB* ≠ *BA*.
+
 ### Exercise 2.4.3
+
+> Find 2 x 2 matrices *A* and *B* over *K*, both different from the zero matrix 0, suxh that *AB* = 0.
 
 ### Exercise 2.4.4 (you must find nonzero matrices)
 
+> Find 2 x 2 matricies *A*, *B*, and *C* over *K* such that *AB* = *AC* but *B* ≠ *C*.
+
 ### Exercise 2.4.6 (only D)
+
+> Find the RREF for each of the four matrices in **Exercise 2.4.1*.
