@@ -4,16 +4,78 @@
 
 ### Exercise 2.5.3a,b,c,f
 
+> Use **Algorithm 2.5.1** to find a basis for *C* = < *S* > for each of the following sets *S*.
+
+> (a) *S* = {010,011,111}
+
+> (b) *S* = {1010,0101,1111}
+
+> (c)	*S* = {0101,1010,1100}
+
+> (f)	*S* = {10101,01010,11111,00011,10110}.
+
 ### Exercise 2.5.6a,b,c,f
+
+> Use **Algorithm 2.5.4** to find a basis for *C* = < *S* > for each set *S* in **Exercise 2.5.3** and compare answers.
+
+> (a) *S* = {010,011,111}
+
+> (b) *S* = {1010,0101,1111}
+
+> (c)	*S* = {0101,1010,1100}
+
+> (f)	*S* = {10101,01010,11111,00011,10110}.
 
 ### Exercise 2.5.10a,b,c,f
 
+> Use Algorithm 2.5. 7 to find a basis for Cl. for each of the codes *C* =< *S* > where
+
+> (a) *S* = {010,011,111}
+
+> (b) *S* = {1010,0101,1111}
+
+> (c)	*S* = {0101,1010,1100}
+
+> (f)	*S* = {10101,01010,11111,00011,10110}.
+
 ### Exercise 2.6.4 (only A)
+
+> Determine whether each of the following is a generator matrix for some linear code. 
+```
+    | 0 1 0 0 1 1 1 0 1 | 
+A = | 1 0 0 1 0 1 1 0 1 | 
+    | 1 0 1 1 0 0 1 1 0 | 
+    | 1 0 1 1 0 1 1 0 1 | 
+```
 
 ### Exercise 2.6.5d
 
+> Find a generator matrix in RREF for each of the following codes.
+
+> (d) C = {00000, 11100, 00111, 11011}.
+
 ### Exercise 2.6.10b
 
+> For each of the following generating matrices, encode the given messages.
+``` 
+    | 1 0 0 0 1 1 1 |  
+B = | 0 1 0 0 1 0 1 |  
+    | 0 0 1 0 0 1 1 |  
+```
+
 ### Exercise 2.6.12a,b
+
+> Let C be the code with generator matrix
+```
+    | 1 0 0 0 1 1 1 |  
+G = | 0 1 0 0 1 1 0 |  
+    | 0 0 1 0 1 0 1 |  
+    | 0 0 0 1 0 1 1 |  
+```
+
+> Assign messages to the words in J<4 as follows:
+```
+A = 0000    B = 1000    C = 0100    D = 0010
+
 
 ### Exercise 2.6.13 (only for 2.6.5d)
