@@ -48,7 +48,7 @@ a = b = c = d   = 0
 
 ```
 
-a(1100) + b(1010) + c(1001) + d(0101) = 00000
+a(1100) + b(1010) + c(1001) + d(0101) = 0000
 
 a.1 + b.1 + c.1 + d.0   = a + b + c     = 0
 a.1 + b.0 + c.0 + d.1   = a + d         = 0
@@ -72,11 +72,11 @@ b               = 0
 
 ```
 
-1(1100) + 0(1010) + 1(1001) + 1(0101) = 00000
+1(1100) + 0(1010) + 1(1001) + 1(0101) = 0000
 
 We will discard '1(0101)'. Because it is closest (first) dependent word to 00000. (Right to left).
 
-a(1100) + b(1010) + c(1001) = 00000
+a(1100) + b(1010) + c(1001) = 0000
 
 a.1 + b.1 + c.1         = a + b + c     = 0 
 a.1 + b.0 + c.0         = a             = 0
@@ -91,7 +91,7 @@ a = b = c       = 0
 
 ```
 
-The new *S'* is linearly independent.
+The new *S'* = {1100, 1010, 1001}  is linearly independent.
 
 ### Exercise 2.3.7
 
@@ -111,7 +111,47 @@ The new *S'* is linearly independent.
 
 #### For (a) *C*<sup>⊥</sup> = {000}
 
-#### For (b) *C*<sup>⊥</sup> = {0000, 1010, 0101, 1111)
+#### For (b) *S* = {1010, 0101, 1111}
+
+```
+
+a(1010) + b(0101) + c(1111) = 0000
+
+a.1 + b.0 + c.1         = a + c     = 0
+a.0 + b.1 + c.1         = b + c     = 0
+a.1 + b.0 + c.1         = a + c     = 0
+a.0 + b.1 + c.1         = b + c     = 0
+
+a               = c
+b               = c
+
+a = b = c
+
+```
+
+S is linearly dependent.
+
+```
+
+1(1010) + 1(0101) + 1(1111) = 0000
+
+Discard '1(1111)'.
+
+a(1010) + b(0101) = 0000
+
+a.1 + b.0               = a         = 0
+a.0 + b.1               = b         = 0
+a.1 + b.0               = a         = 0
+a.0 + b.1               = b         = 0
+
+a               = 0
+b               = 0
+
+a = b = 0
+
+```
+
+The new *S'* = {1010, 0101}  is linearly independent.
 
 #### For (c) *C*<sup>⊥</sup> = {0000, 1111)
 
