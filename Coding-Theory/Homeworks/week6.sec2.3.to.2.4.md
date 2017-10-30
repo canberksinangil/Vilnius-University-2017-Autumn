@@ -10,6 +10,49 @@
 
 > (f) *S* = {1100, 1010, 1001, 0101}
 
+#### For (c) *S* = {1101, 0111, 1100, 0011}.
+
+```
+
+a(1101) + b(0111) + c(1100) + d(0011) = 0000
+
+a.1 + b.0 + c.1 + d.0   = a + c         = 0
+a.1 + b.1 + c.1 + d.0   = a + b + c     = 0
+a.0 + b.1 + c.0 + d.1   = b + d         = 0
+a.1 + b.1 + c.0 + d.1   = a + b + d     = 0
+
+b + d       = 0
+a + b + d   = 0
+a + 0       = 0
+a           = 0
+
+a + c       = 0
+0 + c       = 0
+c           = 0
+
+a + b + c   = 0
+0 + b + 0   = 0
+b           = 0
+
+b + d       = 0
+0 + d       = 0
+d           = 0
+
+a = b = c = d = 0
+
+```
+
+*S* is linearly independent.
+
+#### For (f) *S* = {1100, 1010, 1001, 0101}.
+
+```
+a(1100) + b(1010) + c(1001) + d(0101)
+
+
+```
+
+
 ### Exercise 2.3.7a,b,c,f (the dual code was computed in Exercise 2.2.7)
 
 > For each set in **Exercise 2.2.3** find a basis *B* for the code *C* = < *S* > and a basis *B*<sup>⊥</sup> for the dual code *C*<sup>⊥</sup>.
