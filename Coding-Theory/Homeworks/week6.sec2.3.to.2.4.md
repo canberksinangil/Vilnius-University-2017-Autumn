@@ -47,6 +47,7 @@ a = b = c = d   = 0
 #### For (f) *S* = {1100, 1010, 1001, 0101}.
 
 ```
+
 a(1100) + b(1010) + c(1001) + d(0101) = 00000
 
 a.1 + b.1 + c.1 + d.0   = a + b + c     = 0
@@ -63,12 +64,21 @@ a               = c
 a + d           = 0
 a               = d
 
-a = c = d       = 1 or 0
+a = c = d       = 1 (?or 0?)
 
 b               = 0
 
 ```
 
+```
+
+1(1100) + 0(1010) + 1(1001) + 1(0101) = 00000
+
+We will discard '1(0101)'. Because it is closest (first) depented word to 00000. (Right to left).
+
+1(1100) + 0(1010) + 1(1001) = 00000
+
+```
 
 ### Exercise 2.3.7a,b,c,f (the dual code was computed in Exercise 2.2.7)
 
