@@ -2,7 +2,7 @@
 
 ## Week 6 (Section 2.3 - 2.4)
 
-### Exercise 2.3.4c,f,
+### Exercise 2.3.4
 
 > Test each of the following sets for linear independence. If the set is linearly dependent, extract from *S* a largest linearly independent subset.
 
@@ -21,24 +21,24 @@ a.1 + b.1 + c.1 + d.0   = a + b + c     = 0
 a.0 + b.1 + c.0 + d.1   = b + d         = 0
 a.1 + b.1 + c.0 + d.1   = a + b + d     = 0
 
-b + d       = 0
-a + b + d   = 0
-a + 0       = 0
-a           = 0
+b + d           = 0
+a + b + d       = 0
+a + 0           = 0
+a               = 0
 
-a + c       = 0
-0 + c       = 0
-c           = 0
+a + c           = 0
+0 + c           = 0
+c               = 0
 
-a + b + c   = 0
-0 + b + 0   = 0
-b           = 0
+a + b + c       = 0
+0 + b + 0       = 0
+b               = 0
 
-b + d       = 0
-0 + d       = 0
-d           = 0
+b + d           = 0
+0 + d           = 0
+d               = 0
 
-a = b = c = d = 0
+a = b = c = d   = 0
 
 ```
 
@@ -47,8 +47,25 @@ a = b = c = d = 0
 #### For (f) *S* = {1100, 1010, 1001, 0101}.
 
 ```
-a(1100) + b(1010) + c(1001) + d(0101)
+a(1100) + b(1010) + c(1001) + d(0101) = 00000
 
+a.1 + b.1 + c.1 + d.0   = a + b + c     = 0
+a.1 + b.0 + c.0 + d.1   = a + d         = 0
+a.0 + b.1 + c.0 + d.0   = b             = 0
+a.0 + b.0 + c.1 + d.1   = c + d         = 0
+
+b               = 0
+a + b + c       = 0
+a + 0 + c       = 0
+a + c           = 0
+a               = c
+
+a + d           = 0
+a               = d
+
+a = c = d       = 1 or 0
+
+b               = 0
 
 ```
 
