@@ -428,8 +428,34 @@ The distance for *C* is *d* = 2.
 
 ```
 
+10101 = 1.x + 0.y + 1.z + 0.w + 1.u
+      = x + z + u = 0
+      
+01010 = 0.x + 1.y + 0.z + 1.w + 0.u
+      = y + w = 0
+      
+11111 = 1.x + 1.y + 1.z + 1.w + 1.u
+      = x + y + z + w + u = 0
+      
+00011 = 0.x + 0.y + 0.z + 1.w + 1.u
+      = w + u = 0
 
-
+10110 = 1.x + 0.y + 1.z + 1.w + 0.u
+      = x + z + w = 0
+      
+      x + z + u = 0
+      y + w = 0
+      x + y + z + w + u = 0
+      w + u = 0
+      x + z + w = 0
+      
+      y = w
+      w = u
+      x + z = u
+      x + z = w
+      
+      y = w = u = x + z
+      
 ```
 
 ### Exercise 2.2.8
