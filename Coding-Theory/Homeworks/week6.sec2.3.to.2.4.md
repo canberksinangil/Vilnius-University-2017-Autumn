@@ -74,9 +74,20 @@ b               = 0
 
 1(1100) + 0(1010) + 1(1001) + 1(0101) = 00000
 
-We will discard '1(0101)'. Because it is closest (first) depented word to 00000. (Right to left).
+We will discard '1(0101)'. Because it is closest (first) dependent word to 00000. (Right to left).
 
-1(1100) + 0(1010) + 1(1001) = 00000
+a(1100) + b(1010) + c(1001) = 00000
+
+a.1 + b.1 + c.1         = a + b + c     = 0 
+a.1 + b.0 + c.0         = a             = 0
+a.0 + b.1 + c.0         = b             = 0
+a.0 + b.0 + c.1         = c             = 0
+
+a               = 0
+b               = 0
+c               = 0
+
+a = b = c       = 0
 
 ```
 
