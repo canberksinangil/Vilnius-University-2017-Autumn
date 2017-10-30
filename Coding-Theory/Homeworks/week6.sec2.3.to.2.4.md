@@ -97,13 +97,17 @@ The new *S'* is linearly independent.
 
 > For each set in **Exercise 2.2.3** find a basis *B* for the code *C* = < *S* > and a basis *B*<sup>⊥</sup> for the dual code *C*<sup>⊥</sup>.
 
-> (a) *S* = {010, 011, 111}
+> (a) *S* = {010, 011, 111}  
+> (a) *C*<sup>⊥</sup> = {000}
 
-> (b) *S* = {1010, 0101, 1111}
+> (b) *S* = {1010, 0101, 1111}  
+> (b) *C*<sup>⊥</sup> = {0000, 1010, 0101, 1111)
 
-> (c) *S* = {0101, 1010, 1100}
+> (c) *S* = {0101, 1010, 1100}  
+> (c) *C*<sup>⊥</sup> = {0000, 1111)
 
-> (f) *S* = {10101, 01010, 11111, 00011, 10110}
+> (f) *S* = {10101, 01010, 11111, 00011, 10110}  
+> (f) *C*<sup>⊥</sup> = {10100, 00000, 11011, 01111}
 
 ### Exercise 2.3.8a,b,c,f
 
