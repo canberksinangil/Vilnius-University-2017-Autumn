@@ -73,9 +73,15 @@ G = | 0 1 0 0 1 1 0 |
     | 0 0 0 1 0 1 1 |  
 ```
 
-> Assign messages to the words in J<4 as follows:
+> Assign messages to the words in *K*<sup>4</sup> as follows:
 ```
-A = 0000    B = 1000    C = 0100    D = 0010
+A = 0000    B = 1000    C = 0100    D = 0010  
+E = 0001    F = 1100    G = 1010    H = 1001  
+I = 0110    J = 0101    K = 0011    L = 1110  
+M = 1101    N = 1011    O = 0111    P = 1111  
+```
+> (a) Encode the message HELP.
 
+> (b) Transmit the message HELP assuming that during transmission the first word receives an error in the first position, the second word receives no errors, the third an error in the seventh position, and the fourth an error in the fifth and sixth positions.
 
 ### Exercise 2.6.13 (only for 2.6.5d)
