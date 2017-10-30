@@ -85,3 +85,7 @@ M = 1101    N = 1011    O = 0111    P = 1111
 > (b) Transmit the message HELP assuming that during transmission the first word receives an error in the first position, the second word receives no errors, the third an error in the seventh position, and the fourth an error in the fifth and sixth positions.
 
 ### Exercise 2.6.13 (only for 2.6.5d)
+
+> Find the number of messages which can be sent, and the information rate *r*, for each of the linear codes in **Exercises 2.6.5**.
+
+> (d) C = {00000, 11100, 00111, 11011}.
