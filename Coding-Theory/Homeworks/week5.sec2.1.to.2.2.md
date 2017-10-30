@@ -246,6 +246,12 @@ The distance for *C* is *d* = 2.
 
 > (b) *a*(*v* · *w*) = (*av*) · *w* = *v* · (*aw*).
 
+#### For (a)  *u* · (*v* + *w*) = *u* · *v* + *u* · *w*
+
+*u* = 10101  
+*v* = 01010  
+*w* = 10001  
+
 ### Exercise 2.2.5
 
 > Prove that the two rules in **Exercise 2.2.4** hold in *K*<sup>*n*</sup>.
