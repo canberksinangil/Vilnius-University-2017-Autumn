@@ -252,6 +252,16 @@ The distance for *C* is *d* = 2.
 *v* = 01010  
 *w* = 10001  
 
+```
+
+10101 . (01010 + 10001) = 10101 . (11010)
+= 1 . 1 + 0 . 1 + 1 . 0 + 0 . 1 + 1 . 0
+= 1 + 0 + 0 + 0 + 0
+= 1
+
+```
+
+
 ### Exercise 2.2.5
 
 > Prove that the two rules in **Exercise 2.2.4** hold in *K*<sup>*n*</sup>.
