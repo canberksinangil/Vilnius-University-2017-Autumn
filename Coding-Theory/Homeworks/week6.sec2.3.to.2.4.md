@@ -91,6 +91,8 @@ a = b = c       = 0
 
 ```
 
+The new *S'* is linearly independent.
+
 ### Exercise 2.3.7a,b,c,f (the dual code was computed in Exercise 2.2.7)
 
 > For each set in **Exercise 2.2.3** find a basis *B* for the code *C* = < *S* > and a basis *B*<sup>⊥</sup> for the dual code *C*<sup>⊥</sup>.
