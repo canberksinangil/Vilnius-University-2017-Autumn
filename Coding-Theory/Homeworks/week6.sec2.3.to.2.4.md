@@ -106,7 +106,7 @@ B = | 1 0 0 1 |     C = | 0 1 1 0 1 1 |
 
 ### Exercise 2.4.6 (only D)
 
-> Find the RREF for each of the four matrices in **Exercise 2.4.1*.
+> Find the RREF for each of the four matrices in **Exercise 2.4.1**.
 ```
     | 1 1 1 1 |  
 D = | 0 1 0 1 |  
