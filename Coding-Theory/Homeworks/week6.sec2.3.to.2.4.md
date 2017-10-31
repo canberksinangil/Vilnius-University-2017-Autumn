@@ -109,7 +109,34 @@ The new *S'* = {1100, 1010, 1001}  is linearly independent.
 > (f) *S* = {10101, 01010, 11111, 00011, 10110}  
 > (f) *C*<sup>⊥</sup> = {10100, 00000, 11011, 01111}
 
-#### For (a) *C*<sup>⊥</sup> = {000}
+#### For (a) *S* = {010, 011, 111}
+
+```
+
+a(010) +  b(011) + c(111) = 000
+
+a.0 + b.0 + c.1         = c             = 0 
+a.1 + b.1 + c.1         = a + b + c     = 0 
+a.0 + b.1 + c.1         = b + c         = 0 
+
+c               = 0
+
+b + c           = 0
+b + 0           = 0
+b               = 0
+
+a + b + c       = 0
+b               = 0
+c               = 0
+a + 0 + 0       = 0
+a               = 0
+
+a = b = c = 0
+
+```
+
+*S* is linearly independent.
+
 
 #### For (b) *S* = {1010, 0101, 1111}
 
@@ -129,7 +156,7 @@ a = b = c
 
 ```
 
-S is linearly dependent.
+*S* is linearly dependent.
 
 ```
 
@@ -153,12 +180,9 @@ a = b = 0
 
 The new *S'* = {1010, 0101}  is linearly independent.
 
-```
 
-*S'* = {1010, 0101}
+*B* = *S'* = {1010, 0101}.
 
-
-```
 
 #### For (c) *C*<sup>⊥</sup> = {0000, 1111)
 
