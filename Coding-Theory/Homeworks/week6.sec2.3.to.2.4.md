@@ -247,15 +247,29 @@ The new *S'* = {1010, 0101}  is linearly independent.
 
 > (b) *S* = {1010, 0101, 1111}.
 
-### Exercise 2.4.1(only BC)
+### Exercise 2.4.1
 
 > Find the product of each pair of the following matrices ehenever the product is defined.
+
 ```
+
     | 0 1 0 1 |         | 1 1 0 1 1 0 |
 B = | 1 0 0 1 |     C = | 0 1 1 0 1 1 |
     | 1 1 0 0 |         | 1 0 1 1 0 1 |
                         | 1 0 1 0 1 1 |
+
 ```
+
+```
+
+      | 1 1 0 0 0 0 |
+BxC = | 0 1 1 1 0 1 |
+      | 1 0 1 1 0 1 |
+      
+```
+
+
+
 
 ### Exercise 2.4.2
 
