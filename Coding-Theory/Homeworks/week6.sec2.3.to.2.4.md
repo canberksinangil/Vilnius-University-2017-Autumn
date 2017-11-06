@@ -233,9 +233,9 @@ The new *S'* = {1010, 0101}  is linearly independent.
 > Let *S* be a subset of *K*<sup>8</sup> and assume that {11110000, 00001111, 10000001} is a basis for *C*<sup>⊥</sup>. Find the number of words in *C* = <*S*>.
 
 
-### Exercise 2.3.18 (there must be "S⊥ have" in place of "S have")
+### Exercise 2.3.18 (there must be "S<sup>⊥</sup> have" in place of "S have")
 
-> **Theorem 2.3.14** also holds in *R*<sup>*n*</sup>. In *R*<sup>*n*</sup> every vector can be written uniquely as the sum of a vector in <*S*> and a vector in *S*<sup>⊥</sup>, and the zero vector is the only vector <*S*> and *S*<sup>⊥</sup> have in commmon. (For example in *R*<sup>3</sup> take <*S*> to be the xy-plane and *S*<sup>⊥</sup> the z-axis). Use *S* = {000, 101} in *K*<sup>3</sup> to show that this is not the case in general in *K*<sup>*n*</sup>.
+> **Theorem 2.3.14** also holds in *R*<sup>*n*</sup>. In *R*<sup>*n*</sup> every vector can be written uniquely as the sum of a vector in < *S* > and a vector in *S*<sup>⊥</sup>, and the zero vector is the only vector <*S*> and *S*<sup>⊥</sup> have in commmon. (For example in *R*<sup>3</sup> take < *S* > to be the xy-plane and *S*<sup>⊥</sup> the z-axis). Use *S* = {000, 101} in *K*<sup>3</sup> to show that this is not the case in general in *K*<sup>*n*</sup>.
 
 #### Theorem 2.3.14 
 
@@ -267,9 +267,6 @@ BxC = | 0 1 1 1 0 1 |
       | 1 0 1 1 0 1 |
       
 ```
-
-
-
 
 ### Exercise 2.4.2
 
@@ -318,3 +315,4 @@ D = | 0 1 0 1 |
     | 1 1 0 1 |  
     
 ```
+
