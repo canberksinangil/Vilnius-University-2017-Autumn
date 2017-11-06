@@ -278,18 +278,43 @@ BxC = | 0 1 1 1 0 1 |
 
 ### Exercise 2.4.3
 
-> Find 2 x 2 matrices *A* and *B* over *K*, both different from the zero matrix 0, suxh that *AB* = 0.
+> Find 2 x 2 matrices *A* and *B* over *K*, both different from the zero matrix 0, such that *AB* = 0.
+
+```
+
+| 01 |   | 10 |   | 00 |
+| 00 | x | 00 | = | 00 |
+
+```
+
 
 ### Exercise 2.4.4 (you must find nonzero matrices)
 
 > Find 2 x 2 matricies *A*, *B*, and *C* over *K* such that *AB* = *AC* but *B* ≠ *C*.
 
+```
+
+| 11 |   | 10 |   | 11 |
+| 01 | x | 01 | = | 01 |
+
+```
+
+```
+
+| 11 |   | 01 |   | 11 |
+| 01 | x | 01 | = | 01 |
+
+```
+
 ### Exercise 2.4.6 (only D)
 
 > Find the RREF for each of the four matrices in **Exercise 2.4.1**.
+
 ```
+
     | 1 1 1 1 |  
 D = | 0 1 0 1 |  
     | 1 0 1 0 |  
     | 1 1 0 1 |  
+    
 ```
