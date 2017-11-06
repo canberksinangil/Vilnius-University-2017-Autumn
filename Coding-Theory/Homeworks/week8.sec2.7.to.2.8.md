@@ -16,6 +16,16 @@
 
 >(ii) a generator matrix for *C*.
 
+```
+
+    | 0 1 |
+H = | 1 0 |
+    | 0 1 | 
+    | 1 0 |
+    | 0 1 |
+
+```
+
 ### Exercise 2.7.11b
 
 ### Exercise 2.8.1
