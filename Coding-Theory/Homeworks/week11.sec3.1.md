@@ -1,5 +1,5 @@
 # Coding Theory Homework
 
-## Week 10 (Section 2.11 - 2.12)
+## Week 11 (Section 3.1)
 
 ### Exercise
